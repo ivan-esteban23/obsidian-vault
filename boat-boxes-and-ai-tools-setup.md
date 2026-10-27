@@ -89,6 +89,29 @@ Configured in `~/.bashrc`, `~/.profile`, and `~/.zshrc`:
 
 Qoder CLI is installed at `~/.qoder/bin/qodercli/qodercli-1.1.80` with symlinks at `~/.local/bin/qoder` and `~/.local/bin/qodercli`.
 
+### Shell Aliases & Permissions
+
+To eliminate permission prompts when executing shell commands non-interactively or interactively, the following aliases are configured in `~/.bashrc` and `~/.zshrc`:
+
+```bash
+# Agentic mode: auto-approve permissions
+alias qoder='qodercli --dangerously-skip-permissions'
+alias qodercli='qodercli --dangerously-skip-permissions'
+
+# Model shortcuts
+alias qoder-qwen='qodercli -m Qwen3.8-Flash --reasoning-effort xhigh --dangerously-skip-permissions'
+alias qoder-deepseek='qodercli -m DeepSeek-Flash --reasoning-effort high --dangerously-skip-permissions'
+```
+
+#### Quick Usage Examples:
+```bash
+# Review PR diff using Qwen 3.8 Flash Extra High
+qoder-qwen -p "Run 'gh pr diff 55 -R ivan-esteban23/the-portrait-edit-issue-02' and review for bugs."
+
+# Inspect PR using DeepSeek Flash High
+qoder-deepseek -p "Run 'gh pr view 34 -R ivan-esteban23/the-reference-edit --comments' and summarize."
+```
+
 ### Verified Model Presets
 
 | Preset Name | Model Flag | Reasoning Effort | Command Pattern |

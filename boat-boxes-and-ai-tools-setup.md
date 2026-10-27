@@ -41,8 +41,21 @@ boat-box status
 boat-box start ref
 boat-box start portrait
 
-# Execute command inside sandbox (Instant HTTP API, no SSH required)
-boat-box exec ref "npm run build"
+# Build & Test Workflows (automatically executed in project directory)
+boat-box build ref                 # npm run build in the-reference-edit
+boat-box test ref                  # npm test in the-reference-edit
+boat-box build portrait            # npm run build in the-portrait-edit-issue-02
+boat-box test portrait             # npm test in the-portrait-edit-issue-02
+
+# GitHub PR Operations via Sandbox gh CLI
+boat-box pr ref                    # List open PRs
+boat-box pr ref view 34            # View PR #34 details
+boat-box pr ref diff 34            # Inspect PR #34 code diff
+boat-box pr ref create --title "..." --body "..." # Open a new PR
+boat-box pr ref merge 34 --squash --delete-branch # Merge PR #34
+
+# Execute any command inside sandbox (Instant HTTP API, no SSH required)
+boat-box exec ref "git status"
 boat-box exec portrait "git status"
 
 # Open interactive SSH

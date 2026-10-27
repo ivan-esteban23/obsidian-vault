@@ -1,0 +1,217 @@
+---
+title: System & Workflow Keybindings Reference
+tags:
+  - keybindings
+  - niri
+  - dms
+  - clipboard
+  - nautilus
+  - workflow
+  - sudo
+  - plugins
+  - imagegen
+  - localsend
+  - vlc
+  - webapp
+created: 2026-10-26
+updated: 2026-10-27
+---
+
+# ⌨️ System & Workflow Keybindings Reference
+
+A complete bullet-point reference for your **Niri**, **DankMaterialShell / Dux Shell (DMS)**, **Nautilus Clipboard Attach**, and **Clipboard History** shortcuts — including everything built on this machine so far (Sudo Timer, Image Prompt Builder, LocalSend, VLC).
+
+---
+
+## 📎 Clipboard & Nautilus Attach Shortcuts
+
+* **`Mod + B`** — Toggle the **🧲 Floating Clipboard & File Drag Shelf** right on top of **Alacritty** so you can grab any clipboard image, screenshot, or file (`~/Pictures`, `~/Obsidian Vault`, `~/Documents`) with your mouse and **drag-and-drop it directly into `agy` or `opencode`**.
+* **`Mod + V`** — Toggle the visual **Clipboard History Manager** modal (browse, search, pin, and restore images & text).
+* **`Ctrl + C` (inside Nautilus)** — Copies the selected file/image; when you switch focus to your terminal (`Alacritty`/`foot`), **Brave Origin**, or **Obsidian**, the **Nautilus Clipboard Bridge** automatically converts:
+  * **Images** (`.jpg`, `.png`, `.webp`, `.svg`, `.bmp`, `.gif`) into real `image/png` / `image/jpeg` pixels (ready to paste with `Ctrl + V` / `Alt + V`) *and* saves the clean path in your clipboard history.
+  * **Files & Folders** into their clean absolute path (`/home/ivanaguilera/...`).
+* **`Ctrl + Shift + C` (inside Nautilus)** — Immediately run **📎 Copy to Attach Here** on the selected file(s) without waiting to switch windows.
+* **`Alt + H` (inside Nautilus)** — Open the visual **Clipboard History** modal directly from Nautilus.
+* **Right-Click Menu (inside Nautilus)**:
+  * **📎 Copy Image/Path to Attach Here** — One-click smart copy for attaching in Antigravity CLI, OpenCode, or browsers.
+  * **📋 Clipboard Attach Options ▸** — Copy raw image pixels (`PNG/JPEG`), clean file path (`/home/...`), AI reference (`@path`), file text contents, or save the active clipboard as a new file in the current folder.
+  * **🕒 Clipboard History ▸** — Browse your 12 most recent clipboard items (🖼️ Images & 📝 Text), click any entry to restore it, or use **💾 Save History Item Here as File ▸** to save any historical item directly into the folder.
+
+---
+
+## 🚀 Application Launchers & DMS Panels
+
+* **`Mod + T`** / **`Mod + Return`** — Open Terminal.
+* **`Mod + Space`** — Toggle **Application Launcher (Spotlight)**.
+* **`Alt + Space`** — Toggle **Spotlight Bar**.
+* **`Mod + D`** — Toggle **DankDash** (Overview, Multimedia, Wallpapers, Weather, Settings).
+* **`Mod + M`** — Toggle **Multimedia Player** tab (with automatic album/video thumbnail & artist resolution).
+* **`Mod + Y`** — Browse **Wallpapers** in DankDash.
+* **`Mod + A`** — Toggle **Control Center**.
+* **`Mod + Comma (,)`** — Open or focus **DMS Settings**.
+* **`Mod + N`** — Toggle **Notepad**.
+* **`Mod + Shift + N`** — Expand **Notepad**.
+* **`Mod + Ctrl + N`** — Toggle **Notification Center**.
+* **`Mod + Shift + D`** — Toggle **Do Not Disturb** (turns off/on notification popups with on-screen toast feedback).
+* **`Mod + Shift + C`** — Toggle **Screen Color Picker**.
+* **`Mod + Alt + N`** — Toggle **Night Mode**.
+* **`Mod + Alt + I`** — Toggle **Idle Inhibit** (keep screen awake).
+* **`Mod + Shift + /`** — Toggle **Keyboard Shortcuts Overlay**.
+
+---
+
+## 🪟 Window & Column Management (Niri)
+
+* **`Mod + Q`** — Close focused window.
+* **`Mod + F`** — Maximize focused column.
+* **`Mod + Shift + F`** — Fullscreen focused window.
+* **`Mod + Ctrl + F`** — Expand column to available width.
+* **`Mod + W`** — Toggle tabbed column display.
+* **`Mod + Shift + T`** — Toggle floating/tiling mode for focused window.
+* **`Mod + Shift + V`** — Switch focus between floating and tiling windows.
+* **`Mod + Shift + W`** — Create a window rule for the focused window.
+* **`Mod + O`** / **`Mod + Tab`** — Toggle Workspace Overview.
+* **`Alt + Tab`** / **`Alt + Shift + Tab`** — Cycle next/previous window on current monitor.
+* **`Alt + ` ` `** — Cycle windows of the same application (`app-id`).
+
+---
+
+## 🧭 Focus & Window Navigation
+
+* **`Mod + H`** / **`Mod + Left`** — Focus column to the left.
+* **`Mod + L`** / **`Mod + Right`** — Focus column to the right.
+* **`Mod + J`** / **`Mod + Down`** — Focus window down in column.
+* **`Mod + K`** / **`Mod + Up`** — Focus window up in column.
+* **`Mod + Home`** / **`Mod + End`** — Focus first / last column on workspace.
+* **`Mod + Shift + H / J / K / L`** (or **`Mod + Shift + Arrows`**) — Move focused column/window left, down, up, or right.
+* **`Mod + Ctrl + Home`** / **`Mod + Ctrl + End`** — Move column to first / last position.
+* **`Mod + [`** / **`Mod + ]`** — Consume or expel window left / right into a column.
+* **`Mod + .`** — Expel focused window from column.
+
+---
+
+## 📐 Column & Window Sizing
+
+* **`Mod + R`** — Cycle preset column widths.
+* **`Mod + Shift + R`** — Cycle preset window heights.
+* **`Mod + Ctrl + R`** — Reset window height.
+* **`Mod + C`** — Center focused column.
+* **`Mod + Ctrl + C`** — Center all visible columns.
+* **`Mod + -`** / **`Mod + =`** — Decrease / increase column width by `10%`.
+* **`Mod + Shift + -`** / **`Mod + Shift + =`** — Decrease / increase window height by `10%`.
+
+---
+
+## 🗂️ Workspaces & Monitors
+
+* **`Mod + 1` … `Mod + 9`** — Switch directly to Workspace `1` through `9`.
+* **`Mod + Shift + 1` … `Mod + Shift + 9`** — Move focused column to Workspace `1` through `9`.
+* **`Mod + U`** / **`Mod + Page_Down`** — Focus workspace below.
+* **`Mod + I`** / **`Mod + Page_Up`** — Focus workspace above.
+* **`Mod + Ctrl + U / I`** (or **`Mod + Ctrl + Up / Down`**) — Move focused column to workspace below / above.
+* **`Mod + Shift + U / I`** (or **`Mod + Shift + Page_Down / Page_Up`**) — Move entire workspace down / up.
+* **`Mod + Alt + R`** — Rename current workspace.
+* **`Mod + WheelScrollDown / Up`** — Scroll through workspaces.
+* **`Mod + Shift + WheelScrollDown / Up`** — Scroll through columns horizontally.
+* **`Mod + Ctrl + H / J / K / L`** — Focus monitor left / down / up / right.
+* **`Mod + Shift + Ctrl + H / J / K / L`** — Move column to monitor left / down / up / right.
+
+---
+
+## 🎵 Media, Volume & Brightness
+
+* **`XF86AudioRaiseVolume`** / **`XF86AudioLowerVolume`** — Volume `+3%` / `-3%`.
+* **`XF86AudioMute`** — Toggle audio mute.
+* **`XF86AudioMicMute`** — Toggle microphone mute.
+* **`XF86AudioPlay`** / **`XF86AudioPause`** — Play / Pause active media player.
+* **`XF86AudioNext`** / **`XF86AudioPrev`** — Next / Previous media track.
+* **`Ctrl + XF86AudioRaiseVolume / LowerVolume`** — Adjust active media player volume `+3%` / `-3%`.
+* **`XF86MonBrightnessUp`** / **`XF86MonBrightnessDown`** — Screen brightness `+5%` / `-5%`.
+
+---
+
+## 📸 Screenshots, Display & System Security
+
+* **`Print`** / **`XF86Launch1`** — Capture region screenshot.
+* **`Ctrl + Print`** / **`Ctrl + XF86Launch1`** — Capture full-screen screenshot.
+* **`Alt + Print`** / **`Alt + XF86Launch1`** — Capture active window screenshot.
+* **`Mod + P`** — Cycle display profile.
+* **`Ctrl + Alt + Delete`** / **`Ctrl + Alt + M`** — Open **Task Manager (Process List)**.
+* **`Mod + Alt + L`** — Lock screen.
+* **`Mod + X`** — Toggle **Power Menu**.
+* **`Mod + Shift + P`** — Power off monitors (DPMS).
+* **`Mod + Escape`** — Toggle keyboard shortcuts inhibit.
+* **`Mod + Shift + E`** — Quit Niri session.
+
+---
+
+## 🔒 Custom: Sudo Timer (600-minute passwordless sudo)
+
+Built as a **Dux Shell daemon plugin** (`~/.config/dms/plugins/sudoTimer/`) + helper script `~/.local/bin/sudo-timer`.
+
+* **`Mod + Shift + S`** — **Start / Refresh** the 600-minute passwordless-sudo window.
+  * If sudo is still active → silently refreshes and extends the window.
+  * If not → opens an **Alacritty window**: type your password **once**, it closes itself after 3 s.
+  * Then a detached keepalive monitor runs `sudo -n -v` every **5 min** for **600 min**.
+* **`Mod + Alt + S`** — **Stop** the timer immediately (`sudo -k`, disables passwordless within 5 s).
+* Bullets:
+  * The plugin daemon double-covers the keepalive: ticks every 5 min and survives even if the monitor dies; shows desktop toasts ("active — 9h 55m remaining", expiration/errors).
+  * Control Center card appears under the plugin's status (start/stop are also possible from there).
+  * State files: `~/.cache/sudo-timer/state.json`.
+  * Optional one-time sudoers tweak for user-wide timestamps:
+    `Defaults:ivanaguilera timestamp_type=global,timestamp_timeout=600` in `/etc/sudoers.d/sudo-timer`.
+  * Status check from any terminal: `sudo-timer status` / verify passwordless with `sudo -n true`.
+
+---
+
+## 🖼️ Custom: Image Prompt Builder (framework analysis → ChatGPT prompt)
+
+Built as a **Dux Shell widget plugin** (`~/.config/dms/plugins/imgPrompt/`) + helper script `~/.local/bin/img-prompt`, powered by **Codex CLI / ChatGPT vision** (`codex exec -i <image>`).
+
+* **`Mod + Shift + B`** — **Attach reference image**: takes the **clipboard image** (pair it with the Nautilus bridge: `Ctrl + C` in Nautilus → this key) and stages it. Or from any terminal: `img-prompt stage ~/Pictures/foto.jpg`.
+* **`Mod + Shift + G`** — **Build the prompt**: ChatGPT analyzes the reference with the embedded street-style **framework analysis** (shot type › body proportions › hairstyle › face/glasses › outfit with garment details › accessories › composition › background › lighting › palette › camera/film tokens) and produces the single-paragraph **ChatGPT image prompt** in the reference style — automatically **copied to your clipboard** when done (~1–3 min; toast on completion).
+* Bullets:
+  * Startup shortcut: the plugin's Control Center card / bar pill click does **attach + build** in one step (`img-prompt auto`).
+  * Live status on the bar pill / CC card: *Ready → build prompt · ChatGPT analyzing… · Prompt ✓ · Error*.
+  * Results: `~/.cache/img-prompt/analysis.txt` (framework analysis) and `~/.cache/img-prompt/prompt.txt` (final prompt).
+  * Verified end-to-end on `~/Pictures/brasil-reference.jpg` (1358-char clipboard-ready prompt).
+
+---
+
+## 📡 Custom: App Launchers
+
+* **`Mod + S`** — Open **LocalSend** (was free — sudo timer uses the `Shift`/`Alt` variants of `S`).
+* **`Mod + Shift + M`** — Open **VLC** (*`Shift+V` was taken by the floating/tiling focus switcher*).
+* **`Mod + Alt + W`** — Open **WeChat** (微信), installed as an AppImage and searchable in the application launcher.
+* **`Mod + Alt + T`** — Open **rqbit-desktop** (Rust BitTorrent client).
+
+---
+
+## 🧩 Plugin & Script Index (everything built on this machine)
+
+### Dux Shell plugins (`~/.config/dms/plugins/`)
+* **`sudoTimer`** *(daemon)* — passwordless sudo for 600 min; ticks the keepalive every 5 min, toasts state changes. → `plugin.json`, `SudoTimerKeepalive.qml`
+* **`imgPrompt`** *(widget)* — clipboard/path reference → framework analysis → ChatGPT image prompt. → `plugin.json`, `ImgPromptWidget.qml`
+* **`webappManager`** *(widget)* — install any website as a **Brave Origin WebApp** (URL + optional custom name → app window in Spotlight/app menu) and remove existing ones from the same panel. → `plugin.json`, `WebAppManagerWidget.qml`
+* **`clipboardHistoryPlus`** *(widget)* — visual clipboard history modal with pin/restore/save. → `ClipboardHistoryWidget.qml`
+* **`mediaThumbnailEnhancer`** *(daemon)* — hi-res album/video thumbnails + clean metadata for Bandcamp/YouTube/Spotify/SoundCloud. → `MediaThumbnailDaemon.qml`
+* **`nautilusClipboardAttach`** *(widget)* — the Nautilus ↔ terminal/browser clipboard bridge described above. → `NautilusClipboardAttach*.qml`
+
+### Helper scripts (`~/.local/bin/`)
+* **`sudo-timer`** — `start | tick | status | stop | expire` (state: `~/.cache/sudo-timer/state.json`)
+* **`img-prompt`** — `stage [file] | auto | run | status` (outputs in `~/.cache/img-prompt/`)
+* **`webapp`** — `install <url> [name] | list | remove <name|slug|url>` (launchers in `~/.local/share/applications`, favicons auto-fetched to `~/.local/share/icons/hicolor/128x128/apps/`, index `~/.cache/webapps/apps.json`)
+* **`clip-attach-helper`** — clipboard image/text staging used by the Nautilus bridge and history plugin
+* **`toggle-drag-shelf`** — toggles the floating drag-and-drop clipboard shelf (`Mod + B`)
+* **`toggle-dnd`** — toggles Do Not Disturb in DMS notifications with an on-screen toast popup (`Mod + Shift + D`)
+* **`obsidian-vault`** — `status | sync | init-git | backup | bundle | restore | new` (vault management, backup & git sync CLI)
+
+## 🌐 WebApps (site → Brave app window)
+
+* **`Mod + G`** — Open the **WebApp Manager panel** directly (Control Center focused on the WebApps card).
+* No other keybinding needed for install/remove — everything lives in that one panel.
+* Quick flow: copy any URL → click the **WebApps** card (or now: `Mod + G` → type the URL) → installs instantly.
+* Installed launchers work from **Spotlight (`Mod + Space`)** and your app menu as *"Name (WebApp)"* — they open in a dedicated **Brave `--app` window** (no tabs/toolbar), with the site's favicon as icon.
+* Remove anytime via the plugin panel (Remove button per entry) or terminal: `webapp remove <name>`
+
+> Only enabled, registered plugins show up — list them with `dms ipc call plugins list` (all six `[loaded]`).

@@ -1,0 +1,9 @@
+{
+  "attachmentFolderPath": "attachments",
+  "showInlineTitle": true,
+  "strictLineBreaks": false,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "foldHeading": true,
+  "foldIndent": true
+}

@@ -1,0 +1,10 @@
+{
+  "accentColor": "#d0bcff",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Atkinson Hyperlegible, Inter, IBM Plex Sans",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "dank-visuals"
+  ]
+}

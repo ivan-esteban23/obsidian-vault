@@ -1,0 +1,13 @@
+# Obsidian workspace layout and dynamic caches
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json.bak
+.obsidian/cache/
+.obsidian/plugins/omnisearch/cache/
+.obsidian/plugins/recent-files-obsidian/data.json
+
+# Trash & OS artifacts
+.trash/
+.DS_Store
+*.tmp
+thumbs.db

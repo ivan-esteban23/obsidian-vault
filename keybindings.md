@@ -80,7 +80,7 @@ Bindings come from `~/.config/niri/config.kdl` and `~/.config/niri/dms/binds.kdl
 | `Mod + Shift + W` | Create a window rule for the focused window |
 | `Mod + O` · `Mod + Tab` | Workspace overview |
 | `Alt + Tab` · `Alt + Shift + Tab` | Cycle windows on the display |
-| `` Alt + ` `` | Cycle windows of the same application |
+| `` Alt + ` `` · `` Alt + Shift + ` `` | Cycle windows of the same application — next · previous |
 
 ## Navigation
 
@@ -119,10 +119,14 @@ Bindings come from `~/.config/niri/config.kdl` and `~/.config/niri/dms/binds.kdl
 | `Mod + Ctrl + U / I` · `Mod + Ctrl + ↑ / ↓` | Move the column to the workspace below · above |
 | `Mod + Shift + U / I` · `Mod + Shift + Page Down / Up` | Move the workspace down · up |
 | `Mod + Alt + R` | Rename the current workspace |
-| `Mod + scroll` | Scroll workspaces |
-| `Mod + Shift + scroll` | Scroll columns horizontally |
-| `Mod + Ctrl + H J K L` | Focus display left · down · up · right |
-| `Mod + Shift + Ctrl + H J K L` | Move the column to display left · down · up · right |
+| `Mod + scroll ↕` | Focus workspace below · above |
+| `Mod + scroll ↔` | Focus column right · left |
+| `Mod + Ctrl + scroll ↕` | Move the column to workspace below · above |
+| `Mod + Ctrl + scroll ↔` | Move the column right · left |
+| `Mod + Shift + scroll ↕` | Focus column right · left — alias of `Mod + scroll ↔` |
+| `Mod + Ctrl + Shift + scroll ↕` | Move the column right · left — alias of `Mod + Ctrl + scroll ↔` |
+| `Mod + Ctrl + H J K L` · `Mod + Ctrl + ← / →` | Focus display — `H J K L` is left, down, up, right |
+| `Mod + Shift + Ctrl + H J K L` · `Mod + Shift + Ctrl + Arrows` | Move the column to that display |
 
 ## Media & system
 
@@ -133,8 +137,9 @@ Bindings come from `~/.config/niri/config.kdl` and `~/.config/niri/dms/binds.kdl
 | `XF86AudioMicMute` | Microphone mute |
 | `XF86AudioPlay` · `XF86AudioPause` | Play · pause |
 | `XF86AudioNext` · `XF86AudioPrev` | Next · previous track |
-| `Ctrl + XF86AudioRaiseVolume / LowerVolume` | Player volume +3 % · −3 % |
+| `Ctrl + XF86AudioRaiseVolume` · `Ctrl + XF86AudioLowerVolume` | Player volume +3 % · −3 % |
 | `XF86MonBrightnessUp` · `XF86MonBrightnessDown` | Brightness +5 % · −5 % |
+| `XF86TouchpadToggle` | Toggle the touchpad |
 | `Print` · `XF86Launch1` | Region screenshot |
 | `Ctrl + Print` · `Ctrl + XF86Launch1` | Full-screen screenshot |
 | `Alt + Print` · `Alt + XF86Launch1` | Window screenshot |
@@ -150,8 +155,8 @@ Bindings come from `~/.config/niri/config.kdl` and `~/.config/niri/dms/binds.kdl
 
 | Keys | Action |
 | :--- | :--- |
-| `Mod + B` | Floating clipboard and file drag shelf, on top of Alacritty |
-| `Mod + V` | Clipboard history — browse, search, pin, restore |
+| `Mod + B` | Floating drag shelf over Alacritty — images, screenshots and files from `~/Pictures`, `~/Obsidian Vault` and `~/Documents`, dragged straight into `agy` or `opencode` |
+| `Mod + V` | Clipboard history — browse, search, pin and restore images and text |
 | `Ctrl + C` (Nautilus) | Copy; the bridge makes it paste-ready everywhere (below) |
 | `Ctrl + Shift + C` (Nautilus) | Copy to Attach Here immediately |
 | `Alt + H` (Nautilus) | Clipboard history |
@@ -178,6 +183,8 @@ If sudo is already active the window is extended silently; otherwise an Alacritt
 
 `Mod + Alt + D` opens the panel in the Control Center. The bar pill — server glyph plus the current provider — opens a compact popout instead, and turns amber while the profiles and the resolver disagree. **Refresh** and **Re-apply** live only on the Control Center card.
 
+Nothing here runs as root: the plugin in `~/.config/dms/plugins/dnsSwitcher/` and the `dns-switch` helper only touch NetworkManager profiles and `tailscale set --accept-dns`, both allowed for your user.
+
 | Provider | IPv4 | IPv6 |
 | :--- | :--- | :--- |
 | Google | `8.8.8.8` `8.8.4.4` | `2001:4860:4860::8888` `2001:4860:4860::8844` |
@@ -195,7 +202,7 @@ Quad9 filters malware domains; MagicDNS also adds the `tail7b672e.ts.net` search
 | `Mod + Shift + B` | Stage a reference image — the clipboard image, or `img-prompt stage <file>` |
 | `Mod + Shift + G` | Build the ChatGPT image prompt from the reference |
 
-The analysis covers shot type, proportions, hair, face and glasses, outfit, accessories, composition, background, lighting, palette and film tokens, and the finished prompt is copied to the clipboard in about 1–3 minutes. Details: [Image prompt internals](#image-prompt-internals).
+The analysis runs through Codex CLI / ChatGPT vision (`codex exec -i <image>`) and covers shot type, proportions, hair, face and glasses, outfit, accessories, composition, background, lighting, palette and film tokens; the finished prompt is copied to the clipboard in about 1–3 minutes. Details: [Image prompt internals](#image-prompt-internals).
 
 ### Web apps
 
@@ -228,11 +235,11 @@ Quotes and brackets close themselves (`'` `"` `(` `[` `{`); typing a closing cha
 | `zp` | Neovim project jumper, ranked by zoxide frecency |
 | `fe` | Fuzzy file picker into Neovim |
 | `fkill` | Interactive process killer |
-| `y` | Yazi file manager; `cd`s to the directory you quit in |
+| `y` | Yazi file manager with Wayland image previews; `cd`s to the directory you quit in |
 | `x <archive>` · `extract <archive>` | Extract any archive — `.tar.gz`, `.tar.bz2`, `.tar.zst`, `.zip`, `.7z`, `.rar` and more |
 | `z <path>` · `zi` | Zoxide directory jumping |
 
-`direnv` loads per-directory environments on `cd`; `zsh-you-should-use` reminds you of aliases.
+`direnv` loads `.env` files and virtualenvs on `cd` and unloads them on exit; `zsh-you-should-use` reminds you of your aliases when you type a long raw command.
 
 ### Replacements
 
@@ -250,12 +257,12 @@ Quotes and brackets close themselves (`'` `"` `(` `[` `{`); typing a closing cha
 | `qoder` · `qodercli` | Qoder CLI, auto-approving |
 | `qoder-qwen` | Qoder with Qwen3.8-Flash (xhigh reasoning) |
 | `qoder-deepseek` | Qoder with DeepSeek-Flash (high reasoning) |
-| `gwt new · agy · cd · ls · rm` | Parallel agent worktrees in `../worktrees/` |
-| `boat` | Boat cloud sandbox CLI |
+| `gwt new · agy · cd · ls · rm` | Parallel agent worktrees in `../worktrees/`; optionally launches `agy` |
+| `boat` | Boat cloud sandbox CLI, with session state tracking |
 | `boat-ref` · `boat-portrait` | The Reference Edit · Portrait Issue 02 |
 | `boat-ref-ssh` · `boat-portrait-ssh` | SSH into those sandboxes |
 
-Background builds, tests and agent commands longer than 15 seconds send a desktop notification when they finish.
+Background builds, tests and agent commands longer than 15 seconds send a `notify-send` notification when they finish.
 
 ## Reference
 
@@ -263,16 +270,16 @@ Background builds, tests and agent commands longer than 15 seconds send a deskto
 
 Eight local Dux Shell plugins in `~/.config/dms/plugins/`; list what is loaded with `dms ipc call plugins list`.
 
-| Plugin | Type | Purpose |
-| :--- | :--- | :--- |
-| `sudoTimer` | daemon | Keeps the 600-minute passwordless sudo window alive |
-| `imgPrompt` | widget | Reference image → framework analysis → ChatGPT prompt |
-| `webappManager` | widget | Install and remove sites as Brave app windows |
-| `clipboardHistoryPlus` | widget | Clipboard history modal |
-| `mediaThumbnailEnhancer` | daemon | Hi-res album and video thumbnails, clean metadata |
-| `nautilusClipboardAttach` | widget | Nautilus ↔ terminal and browser clipboard bridge |
-| `dnsSwitcher` | widget | DNS provider switch with latency probe and drift re-apply |
-| `samsungBattery` | widget | Battery and charging monitor for the Galaxy A55 and Watch 7 |
+| Plugin | Type | Purpose | Files |
+| :--- | :--- | :--- | :--- |
+| `sudoTimer` | daemon | Keeps the 600-minute passwordless sudo window alive | `plugin.json`, `SudoTimerKeepalive.qml` |
+| `imgPrompt` | widget | Reference image → framework analysis → ChatGPT prompt | `plugin.json`, `ImgPromptWidget.qml` |
+| `webappManager` | widget | Install and remove sites as Brave app windows | `plugin.json`, `WebAppManagerWidget.qml` |
+| `clipboardHistoryPlus` | widget | Clipboard history modal | `ClipboardHistoryWidget.qml` |
+| `mediaThumbnailEnhancer` | daemon | Hi-res album and video thumbnails, clean metadata | `MediaThumbnailDaemon.qml` |
+| `nautilusClipboardAttach` | widget | Nautilus ↔ terminal and browser clipboard bridge | `NautilusClipboardAttach*.qml` |
+| `dnsSwitcher` | widget | DNS provider switch with latency probe and drift re-apply | `plugin.json`, `DnsSwitcherWidget.qml` |
+| `samsungBattery` | widget | Battery and charging monitor for the Galaxy A55 and Watch 7 | `SamsungBatteryWidget.qml` |
 
 ### Scripts
 
@@ -282,14 +289,14 @@ In `~/.local/bin/`.
 | :--- | :--- |
 | `sudo-timer` | `start · tick · status · stop · expire` |
 | `img-prompt` | `stage [file] · auto · run · status` |
-| `webapp` | `install <url> [name] · list · remove <name>` |
+| `webapp` | `install <url> [name] · list · remove <name>` — launchers in `~/.local/share/applications`, favicons in `~/.local/share/icons/hicolor/128x128/apps/`, index `~/.cache/webapps/apps.json` |
 | `dns-switch` | `status · current · providers · apply <provider> · cycle · test` |
-| `clip-attach-helper` | Clipboard staging for the Nautilus bridge |
+| `clip-attach-helper` | Clipboard image and text staging for the Nautilus bridge and the history plugin |
 | `toggle-drag-shelf` | The drag shelf — `Mod + B` |
 | `toggle-dnd` | Do Not Disturb — `Mod + Shift + D` |
 | `agent-snip` | Region snapshot as `@path` — `Mod + Shift + A` |
 | `voice-dictate` | Whisper dictation — `Mod + Shift + Space` |
-| `obsidian-vault` | `status · sync · init-git · backup · bundle · restore · new` |
+| `obsidian-vault` | `status · sync · init-git · backup · bundle · restore · new` — vault management, backup and git sync |
 
 ## Implementation notes
 

@@ -1,7 +1,7 @@
-# 🍌 10 Reference Analyses & Nano Banana 2.1 Image Prompts
+# 🍌 20 Reference Analyses & Nano Banana 2.1 Image Prompts
 
 > [!tip] 🖼️ Visual Workflow & Image References
-> 10 reference images randomly selected from `/home/ivanaguilera/Pictures/references`. 
+> 20 reference images randomly selected from `/home/ivanaguilera/Pictures/references`. 
 > Click any image thumbnail to zoom, pan, or inspect using **Image Toolkit**, or copy the ready-to-use **Nano Banana 2.1** prompt directly into your generation pipeline.
 
 ---
@@ -20,6 +20,16 @@
 | **08** | ![[30a62fbbf58171f3c7e6addb87a6c8b355eb3b168307f2c8fbb7a43f278bcb3a.jpeg\|180]] | **90s Indie-Sleaze Grunge** | Long wavy dark hair, pale green eyes, sheer black lace blouse, distressed denim |
 | **09** | ![[f0c1625444145982a0a73a7f1081bd9c11d5e4be767cbcabc121330d6c3b248f.jpeg\|180]] | **Retro Tenniscore Garden** | White halter polo mini dress with drop-waist pleated skirt, monogram baguette bag |
 | **10** | ![[c855781c308587e1c525e1708fbc99118bfa85662fb4d100ce9e419d44db8afd.jpeg\|180]] | **Winter Hygge / Window Nook** | Fair Isle reindeer knit cardigan, tortoiseshell glasses, holding ginger kitten |
+| **11** | ![[de018da8557d2d260f15216480b645c080e81065171a35c8497935f8ad78842b.jpeg\|180]] | **Y2K Varsity & Supercars** | Brown knit hoodie with cream "ARISE", baggy blue jeans, Western engraved buckle |
+| **12** | ![[55160f40d7ce677a75a7d78dc893a8676fbe3ea6347930b10527fb43c70567db.jpeg\|180]] | **MTV Pop Star Cargo** | Chocolate crop tank, low-rise parachute pants, chunky rhinestone ball chain belt |
+| **13** | ![[cf46bc9f69242e30f5756eefc5b7855229f209a3a67f0d09227cbd0f0f49973f.jpeg\|180]] | **Grunge Revival Mohair** | Fuzzy magenta off-shoulder crop top, sandblasted denim maxi skirt, fuzzy boots |
+| **14** | ![[8c424533f70caf0a680612a219d4cbc9053badc7f3287a5ddcdb6f6f6300f69a.jpeg\|180]] | **Parisian Collegiate Chic** | "Simple but..." crest tee, high-waist raw indigo wide-leg jeans with patch pockets |
+| **15** | ![[b636d927842887fe4e9a2847b8e67d2aacc865bc227030b0d1307f85e21df576.jpeg\|180]] | **Gothic Cemetery Romantic** | Black velvet & damask boned corset, bell lace sleeves, autumn misty graveyard |
+| **16** | ![[1fda10441201120be12055a8cca3109756e69895f046a6eb1aa758ba0ba212ab.jpeg\|180]] | **Tibetan Nomadic Mountain** | Fluffy fur trapper hat, gold & turquoise jhumka earring, amber eyes, blue sky |
+| **17** | ![[faa636eb433416665f54f6b3943361845984bcdc8b86122fd234a80c55bec4c8.jpeg\|180]] | **Chaebol Luxury Limousine** | Crimson-red funnel coat, Hermès Kelly bag, black gloves, windblown hair |
+| **18** | ![[bf1d910d2aff20be61cc31284f802614f541cc585710f3547d5ae797aad75751.jpeg\|180]] | **K-Pop Varsity Knit** | Heather/navy raglan V-neck, red varsity "S" with "Chilling", low-rise denim |
+| **19** | ![[5ba1b4d9f17d4d4ba1c7f138a934f91e5335bff99b8e4a735bc3a4441b5ad593.jpeg\|180]] | **Neon Summer Idol** | Hot-pink satin crop top & wrap mini skirt with quilted white slit, gravel lot |
+| **20** | ![[e990dbc26cc5558ede85978ef3d7b837453885fad2fd4511c28894d27f4d0faa.jpeg\|180]] | **Korean Retro Romantic** | Charcoal cropped cardigan, blue bow collar, grey polka dot skirt, Mary Janes |
 
 ---
 
@@ -169,4 +179,154 @@ Seated three-quarter interior portrait (knee-up, vertical 3:4) on a wide wooden 
 ### 🍌 Nano Banana 2.1 Prompt
 ```text
 A cozy, warm winter aesthetic portrait of a studious young woman with wavy ash-blonde hair and retro oval tortoiseshell glasses sitting comfortably on an old-fashioned white wooden window sill on a rainy winter day. She is tenderly cradling a tiny ginger tabby kitten with white paws in her arms. She wears a thick, chunky chocolate-brown and oatmeal Fair Isle knit cardigan featuring white reindeer and Nordic geometric patterns over a soft charcoal-grey ribbed turtleneck sweater, paired with a gathered pleated dark burgundy and green tartan plaid wool skirt. Beside her is a tall vintage multi-pane window with droplets of mist on the glass, showing blurry winter garden greenery outside. Soft, diffused cool daylight pours through the window panes onto her cheek and the kitten's soft fur, contrasting with the rich, warm knitted textures. Intimate, tactile hygge atmosphere, shallow depth of field, 3:4 vertical portrait ratio, 4K photographic realism.
+```
+
+---
+
+## 11. 🏎️ Y2K Varsity Knit & White Supercars
+
+![[de018da8557d2d260f15216480b645c080e81065171a35c8497935f8ad78842b.jpeg|320]]  
+*Reference:* `~/Pictures/references/de018da8557d2d260f15216480b645c080e81065171a35c8497935f8ad78842b.jpeg`
+
+### 🔍 Framework Analysis
+Medium vertical 3:4 studio fashion portrait of an East Asian model posing between two high-performance white sports cars. Lean athletic frame with hands resting casually inside a hoodie kangaroo pocket. High messy brunette ponytail with soft wispy bangs framing the face, direct assertive streetwear expression. Styled in a fitted chocolate-brown knit hoodie sweater featuring arched cream collegiate/varsity block lettering reading `"ARISE"` across the chest, ribbed cuffs and hem; paired with low-slung, ultra-baggy vintage-wash faded blue denim jeans with a wide black leather belt featuring an ornate engraved silver Western buckle. Flanked on both sides by sleek white supercars in a brightly lit studio showroom. Soft diffused high-key studio lighting with warm highlights on the knit texture and clean automotive reflections. 50mm lens, sharp foreground focus, contemporary Korean streetwear lookbook aesthetic.
+
+### 🍌 Nano Banana 2.1 Prompt
+```text
+A commercial fashion lookbook photograph of a cool young East Asian woman posing between two modern white sports cars in a clean studio showroom. She wears her dark hair in a high, messy ponytail with soft wispy bangs framing her face, looking into the camera with an effortless streetwear attitude. She is dressed in a form-fitting chocolate-brown knit hoodie sweater with a front kangaroo pocket and bold arched cream varsity block lettering reading "ARISE" across the chest, paired with ultra-baggy, low-rise faded blue denim jeans secured with a wide black leather belt featuring an ornate silver engraved Western buckle. On either side of her are the glossy front fenders and side mirrors of sleek white exotic sports cars. Bright, even commercial studio lighting with soft reflections on the car paint and crisp texture on the knit sweater, 3:4 vertical fashion portrait, 4K resolution.
+```
+
+---
+
+## 12. 💿 2000s MTV Pop Star & Parachute Cargo
+
+![[55160f40d7ce677a75a7d78dc893a8676fbe3ea6347930b10527fb43c70567db.jpeg|320]]  
+*Reference:* `~/Pictures/references/55160f40d7ce677a75a7d78dc893a8676fbe3ea6347930b10527fb43c70567db.jpeg`
+
+### 🔍 Framework Analysis
+Three-quarter vertical 9:16 studio portrait of a young woman with early 2000s MTV pop-icon energy. Toned athletic build with defined midriff, standing with thumbs casually hooked into her pockets. Long, thick chestnut-brown hair with honey-caramel highlights cascading down in loose, tousled waves; blue-grey almond eyes, natural bronze glow, and soft pink lip gloss. Wearing a minimalist chocolate-brown scoop-neck cropped tank top; ultra-low-rise baggy chocolate-brown parachute cargo trousers with ruched gathered drawstring details; accessorized with a wide, dazzling silver metallic ball-chain mesh belt hanging loosely around the hips with an engraved silver leaf medallion, stacked beaded silver choker necklaces, and a leather cuff bracelet. Set against a textured mottled slate-grey studio backdrop. High-contrast early-2000s studio strobe lighting casting crisp rim highlights along her shoulders and hair. 70mm lens, tack-sharp Y2K teen pop aesthetic.
+
+### 🍌 Nano Banana 2.1 Prompt
+```text
+An authentic early-2000s MTV pop star studio photoshoot of a stunning young woman with long, voluminous chestnut hair with caramel highlights falling in messy natural waves over her shoulders. She looks at the camera with striking blue-grey eyes and a confident, magnetic expression, showing off a toned midriff. She is styled in a dark chocolate-brown scoop-neck crop tank top paired with ultra-low-rise baggy ruched chocolate parachute cargo pants, cinched low on the hips with an ornate wide silver metallic ball-chain mesh belt with an engraved silver leaf pendant. Layered beaded silver necklaces and a black leather cuff complete the outfit. Posed against a minimalist mottled slate-grey studio backdrop with high-contrast studio strobe lighting that creates crisp rim lights along her arms and wavy hair. 9:16 vertical orientation, nostalgic 2000s music video editorial aesthetic, hyper-detailed skin and fabric textures.
+```
+
+---
+
+## 13. 🍇 Grunge Revival Mohair & Denim Maxi
+
+![[cf46bc9f69242e30f5756eefc5b7855229f209a3a67f0d09227cbd0f0f49973f.jpeg|320]]  
+*Reference:* `~/Pictures/references/cf46bc9f69242e30f5756eefc5b7855229f209a3a67f0d09227cbd0f0f49973f.jpeg`
+
+### 🔍 Framework Analysis
+Full-length fashion lookbook photograph of a red-haired model standing against a seamless white studio cyclorama. Tall, slender frame with one hand lightly touching her shoulder and the other holding a purse. Long, flowing copper-auburn hair cascading in rich natural waves; pale porcelain skin with soft neutral makeup and nude lips. Wearing a vibrant plum-purple ultra-fuzzy mohair off-the-shoulder long-sleeve crop top with elongated flared cuffs; paired with a low-rise vintage-wash denim maxi skirt featuring a faded dirty-wash sandblasted front, distressed raw frayed hem, and double belt loops with a black leather buckle belt; chunky platform fuzzy purple boots matching the top; holding a distressed brown leather buckle baguette shoulder bag with silver studs. Crisp, shadowless high-key studio softbox lighting. 50mm lens, razor-sharp edge definition, 2000s grunge revival and Harajuku indie-sleaze catalog aesthetic.
+
+### 🍌 Nano Banana 2.1 Prompt
+```text
+A full-length fashion catalog photograph of a model with long, wavy copper-red hair posing against a seamless pure white studio backdrop. She has pale porcelain skin and an effortless, cool expression. She wears an eye-catching textured outfit: a vibrant fuzzy plum-purple mohair off-the-shoulder long-sleeve cropped sweater with raw edges, paired with a low-waisted dark vintage-wash denim maxi skirt featuring authentic faded sandblasting down the front and a frayed distressed hemline. Around her waist is a black leather belt, and on her feet are chunky platform fuzzy purple boots that match the sweater. She carries a small Y2K brown leather baguette purse with studded details and a silver buckle in one hand. Bright high-key commercial studio lighting with soft grounding shadows beneath her feet, crisp focus from head to toe, 4:5 vertical fashion lookbook framing.
+```
+
+---
+
+## 14. 📖 Parisian Collegiate Chic & Raw Indigo Denim
+
+![[8c424533f70caf0a680612a219d4cbc9053badc7f3287a5ddcdb6f6f6300f69a.jpeg|320]]  
+*Reference:* `~/Pictures/references/8c424533f70caf0a680612a219d4cbc9053badc7f3287a5ddcdb6f6f6300f69a.jpeg`
+
+### 🔍 Framework Analysis
+Full-length minimalist fashion lookbook photograph of a tall young woman standing against a warm sandy-beige studio backdrop. Slender, elegant model proportions with calm, poised expression. Shoulder-length dark blonde/light brown hair styled in gentle loose waves; minimal Parisian-chic makeup, a classic single-strand white pearl necklace around the neck. Dressed in a relaxed white short-sleeve cotton crew-neck graphic t-shirt featuring navy-blue cursive script reading `"Simple but..."` above an academic crest emblem; neatly tucked into high-waisted dark raw-indigo wide-leg denim trousers with prominent front patch pockets and a raw-edge hem; accented by a narrow black leather belt with silver hardware; black leather pointed-toe ankle boots; holding a structured black leather tote bag with a folded black sweater draped over the handles. Soft, warm diffused studio lighting. 70mm lens, clean lines, contemporary French collegiate minimalism.
+
+### 🍌 Nano Banana 2.1 Prompt
+```text
+A full-length Parisian chic fashion catalog portrait of a tall, graceful young woman standing against a warm sandy-beige studio wall. She has shoulder-length light-brown hair in loose natural waves and wears a timeless single-strand white pearl necklace with a poised, calm expression. She is dressed in an oversized white cotton graphic t-shirt with navy cursive text reading "Simple but..." above a collegiate crest logo, cleanly tucked into high-waisted dark raw indigo wide-leg denim jeans with large front utility patch pockets and a raw cut hem. A slim black leather belt accents her waist, and she wears pointed black leather boots while holding a structured black leather handbag with a folded black cardigan draped over the handle. Warm, soft commercial studio lighting with gentle natural shadows, 4:5 vertical fashion editorial portrait, high resolution.
+```
+
+---
+
+## 15. 🥀 Victorian Gothic Cemetery & Boned Velvet Corset
+
+![[b636d927842887fe4e9a2847b8e67d2aacc865bc227030b0d1307f85e21df576.jpeg|320]]  
+*Reference:* `~/Pictures/references/b636d927842887fe4e9a2847b8e67d2aacc865bc227030b0d1307f85e21df576.jpeg`
+
+### 🔍 Framework Analysis
+Full-length cinematic gothic film still of a dark-haired woman walking forward along a leaf-strewn gravel path in an overgrown Victorian cemetery. Slender corseted silhouette, haunting serene expression with dark eyes and deep berry lips. Very long, wavy dark espresso hair tumbling over shoulders in the mist. Elaborate 1890s gothic Victorian attire: a boned black velvet and damask corset bodice with antique silver filigree buttons down the center front, a low square neckline, sheer floral black lace long sleeves with flared bell cuffs; flowing into a floor-length sweeping heavy black velvet skirt with a silver waist chain belt; an antique oxidized silver gothic pendant necklace resting on her chest. Background reveals weathered mossy stone headstones, misty weeping willow trees, autumn fallen leaves, and a distant hooded silhouette. Overcast, diffused twilight lighting with cool blue-grey atmospheric haze and warm foliage undertones. 35mm motion picture film aesthetic, 9:16 vertical cinema frame, rich cinematic depth.
+
+### 🍌 Nano Banana 2.1 Prompt
+```text
+A hauntingly beautiful 35mm cinematic gothic film still of a young woman with long wavy dark espresso hair walking along a leaf-strewn gravel pathway in an ancient, misty Victorian cemetery in autumn. She has pale alabaster skin and deep berry lips with a solemn, ethereal gaze. She is dressed in an authentic Victorian gothic ensemble: a tightly laced black velvet corset bodice with silver filigree buttons running down the center, a square neckline, long sheer black lace sleeves with dramatic flared bell cuffs, and a heavy, sweeping floor-length black velvet skirt with an antique silver waist chain. Weathered moss-covered stone gravestones and twisted bare trees fade into the foggy, cool grey-blue background. Soft, overcast autumn daylight filtering through fog, creating rich velvet textures and subtle atmospheric mood, 9:16 vertical cinematic frame, fine analog 35mm movie film grain.
+```
+
+---
+
+## 16. 🏔️ High-Altitude Tibetan Nomadic Fur & Jhumka Gold
+
+![[1fda10441201120be12055a8cca3109756e69895f046a6eb1aa758ba0ba212ab.jpeg|320]]  
+*Reference:* `~/Pictures/references/1fda10441201120be12055a8cca3109756e69895f046a6eb1aa758ba0ba212ab.jpeg`
+
+### 🔍 Framework Analysis
+Close-up ethnographic fashion portrait of an East Asian woman in cold high-altitude mountain terrain. Symmetrical, serene face with warm honey-amber eyes, sculpted high cheekbones, terracota-red lips, and dark hair woven into a thick traditional side braid. Wearing a plush, voluminous grey faux-fur trapper / ushanka hat with earflaps framing her cheeks; an elaborate traditional ornate gold-and-turquoise circular tribal jhumka earring with dangling bell chimes and matching headdress ornaments; an ivory ribbed knit turtleneck sweater; layered under a thick nomadic sheepskin/faux-tiger coat. Set outdoors under a cloudless brilliant azure blue sky with sunlit mountain ridges softly blurred behind. Direct, crisp high-altitude sunlight casting sharp, clean shadows and illuminating the fine texture of fur fibers and skin. 85mm portrait prime lens, tack-sharp focus on the amber iris, National Geographic meets high-fashion editorial.
+
+### 🍌 Nano Banana 2.1 Prompt
+```text
+A striking high-altitude ethnographic fashion portrait of a beautiful Tibetan nomadic woman outdoors in the mountains. She has glowing, sun-kissed golden skin, deep warm amber eyes, and a quiet, dignified gaze. She wears a voluminous fluffy grey faux-fur ushanka trapper hat with earflaps framing her face, and a thick dark braid falling over one shoulder. Adorning her ear is a large, ornate traditional tribal gold jhumka earring set with turquoise and tiny dangling bells, with matching gold ornaments pinned into her hat. She is dressed in a warm cream ribbed knit turtleneck layered beneath a heavy wool nomadic coat with a fur collar. The background shows a brilliant, vivid clear blue sky above distant snow-dusted mountain ridges. Crisp, bright high-altitude sunlight creating sharp highlights on her cheekbones and revealing hyper-detailed fur textures, 4:5 vertical portrait, 4K resolution.
+```
+
+---
+
+## 17. 🚗 Korean High-Society Crimson Coat & Kelly Bag
+
+![[faa636eb433416665f54f6b3943361845984bcdc8b86122fd234a80c55bec4c8.jpeg|320]]  
+*Reference:* `~/Pictures/references/faa636eb433416665f54f6b3943361845984bcdc8b86122fd234a80c55bec4c8.jpeg`
+
+### 🔍 Framework Analysis
+Medium full-length cinematic portrait of an elegant East Asian woman stepping out of a chauffeured black luxury SUV. Slender statuesque frame with graceful poise. Long, windblown chestnut-brown hair catching the sunlight and billowing dramatically; porcelain skin, gradient petal-pink lips, and captivating hazel-brown eyes. Wearing an iconic, vibrant crimson-red heavy wool wrap coat with an exaggerated high funnel collar, polished gold double-breasted buttons, and a cinched fabric belt tied at the waist; black leather gloves; carrying a luxury Hermès Kelly style structured black calfskin leather handbag with gleaming gold turn-lock hardware. Framed against the open door of a glossy metallic black luxury vehicle with chrome accents. Crisp natural outdoor daylight with radiant backlighting through her flying hair strands. 85mm lens, f/2.2, cinematic Korean drama / high-society fashion atmosphere.
+
+### 🍌 Nano Banana 2.1 Prompt
+```text
+A cinematic high-society fashion portrait of an elegant, beautiful East Asian woman stepping out of a glossy black luxury chauffeured limousine. Her long, dark chestnut hair is windblown, catching the warm outdoor sunlight as it flows around her face. She has flawless porcelain skin, a soft gradient pink lip, and a poised, regal expression. She wears a striking, tailored crimson-red wool coat featuring a dramatic high standing funnel collar, gold buttons, and a tied belt that cinches her waist, paired with sleek black leather gloves. In her hand, she carries a structured black leather handbag with polished gold turn-lock hardware. The open car door with a chrome door handle creates a sleek luxury backdrop. Crisp, natural afternoon sunlight with golden rim lighting on her hair, 9:16 vertical cinematic frame, rich color saturation, 4K resolution.
+```
+
+---
+
+## 18. 🧢 K-Pop Collegiate Varsity Knit & Raw Denim
+
+![[bf1d910d2aff20be61cc31284f802614f541cc585710f3547d5ae797aad75751.jpeg|320]]  
+*Reference:* `~/Pictures/references/bf1d910d2aff20be61cc31284f802614f541cc585710f3547d5ae797aad75751.jpeg`
+
+### 🔍 Framework Analysis
+Three-quarter studio fashion lookbook portrait of an East Asian model posing casually while lifting the bottom hem of her knit sweater. Lean athletic proportions with exposed toned abdomen. Long sleek black hair tucked neatly behind ears; delicate small silver hoop earrings, porcelain skin, and a calm, direct gaze. Styling features a vintage varsity-inspired fine-gauge knit sweater: heather-grey body with navy-blue raglan sleeves, a striped ribbed V-neckline (navy, white, and red), crimson sleeve cuffs, and a bold crimson varsity letter `"S"` knit onto the center chest with delicate white cursive embroidery reading `"Chilling"` across the letter; paired with low-rise dark indigo denim jeans with yellow contrast stitching and silver fly button. Minimalist pure white studio cyc with gentle diffused shadows. 50mm lens, bright commercial lighting, modern K-pop idol streetwear aesthetic.
+
+### 🍌 Nano Banana 2.1 Prompt
+```text
+A playful K-pop streetwear studio catalog photograph of a young East Asian female model posing against a seamless pure white background. She has long, straight black hair tucked behind her ears, minimal silver hoop earrings, and a relaxed, cool expression as she casually lifts the hem of her sweater to reveal a toned midriff. She wears a sporty collegiate varsity V-neck knit sweater in heather grey with navy raglan sleeves, striped red-white-and-navy ribbing around the collar, and a large crimson varsity block letter "S" on the chest with white cursive text reading "Chilling" embroidered across it. She pairs it with low-rise dark indigo denim jeans with contrast gold stitching. Bright, crisp commercial fashion studio lighting with soft grounding shadows, clean focus across all fabric textures, 3:4 vertical catalog portrait, ultra-high definition.
+```
+
+---
+
+## 19. ☀️ Neon Hot-Pink Summer Idol Two-Piece
+
+![[5ba1b4d9f17d4d4ba1c7f138a934f91e5335bff99b8e4a735bc3a4441b5ad593.jpeg|320]]  
+*Reference:* `~/Pictures/references/5ba1b4d9f17d4d4ba1c7f138a934f91e5335bff99b8e4a735bc3a4441b5ad593.jpeg`
+
+### 🔍 Framework Analysis
+Medium full-length outdoor summer portrait of a young East Asian woman standing in a sunlit gravel lot. Slender, youthful physique with arms crossed gently across her waist. Long dark brown hair with soft curtain bangs, warm gentle smile, and sunlit eyes. Outfit consists of a striking two-piece fluorescent neon hot-pink satin/spandex set: an asymmetrical bandeau crop top with a contrasting purple shoulder strap, and a matching low-rise hot-pink wrap mini skirt featuring a slit side panel that reveals an under-layer of quilted white satin fabric. Setting is a wide outdoor gravel parking area on a bright summer day with blurred suburban industrial buildings and a bright blue sky filled with fluffy white summer clouds. Bright overhead sunlight with soft golden backlighting creating a subtle lens flare above her head. 50mm portrait lens, cheerful Japanese idol / summer race queen photoshoot aesthetic.
+
+### 🍌 Nano Banana 2.1 Prompt
+```text
+A vibrant summer outdoor photoshoot of a charming young East Asian woman standing on a sunlit gravel lot on a bright sunny day. She has long brown hair with soft wispy bangs, glowing sunlit skin, and a sweet, natural smile with her arms folded gracefully across her stomach. She is wearing a modern fluorescent hot-pink satin two-piece set: an asymmetrical bandeau crop top with a purple shoulder strap, and a matching bright pink low-rise wrap mini skirt designed with a side split revealing a quilted white satin inner panel. Behind her is an open summer sky with soft white cumulus clouds and blurred distant buildings. Direct, warm summer sunlight with a gentle lens flare glowing above her hair, vibrant saturated neon colors, 3:4 vertical portrait ratio, crisp photographic realism.
+```
+
+---
+
+## 20. 🎀 Korean Romantic Retro Polka Dot & Mary Janes
+
+![[e990dbc26cc5558ede85978ef3d7b837453885fad2fd4511c28894d27f4d0faa.jpeg|320]]  
+*Reference:* `~/Pictures/references/e990dbc26cc5558ede85978ef3d7b837453885fad2fd4511c28894d27f4d0faa.jpeg`
+
+### 🔍 Framework Analysis
+Full-length studio fashion lookbook portrait of an East Asian model posing in a minimalist warm-toned studio. Slender, graceful posture with ankles lightly crossed and hands clasped on her purse straps. Soft brunette hair gathered into a low, neat ponytail with gentle tendrils framing the jawline; understated natural makeup with soft rosy lips and thoughtful eyes. Wearing a romantic Korean retro-chic ensemble: a cropped dark charcoal-grey jersey knit cardigan sweater worn open over a pale ice-blue camisole top that features a delicate baby-blue pleated ribbon bow-tie collar; paired with a high-waisted pale grey A-line knee-length skirt patterned with all-over micro black polka dots and a matching fabric belt; dark grey ribbed cotton crew socks and black leather Mary Jane buckle shoes; holding a structured rectangular black leather micro handbag with thin double straps. Soft side window-style studio lighting on a warm beige backdrop. 70mm lens, gentle shadows, Korean indie romance / minimalist feminine editorial style.
+
+### 🍌 Nano Banana 2.1 Prompt
+```text
+A full-length Korean romantic retro fashion lookbook photograph of an elegant East Asian young woman standing against a neutral warm-beige studio wall. She has soft brunette hair tied in a loose low ponytail with wispy strands framing her face, and a gentle, graceful expression. She wears a layered vintage-inspired outfit: a fitted cropped charcoal-grey jersey cardigan worn over a pale ice-blue scoop top featuring a delicate pleated baby-blue ribbon bow tie at the neckline, styled with a high-waisted pale grey A-line knee-length skirt adorned with tiny black polka dots and a matching fabric belt. She wears dark charcoal ribbed crew socks with black leather buckle Mary Jane shoes, holding a small rectangular black leather handbag with thin straps in front of her. Soft diffused natural studio lighting casting gentle modeling shadows, clean lines and tactile fabric details, 9:16 vertical full-length fashion catalog, 4K resolution.
 ```

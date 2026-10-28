@@ -13,8 +13,12 @@ tags:
   - localsend
   - vlc
   - webapp
+  - zsh
+  - terminal
+  - fzf
+  - lazygit
 created: 2026-10-26
-updated: 2026-10-27
+updated: 2026-10-28
 ---
 
 # ⌨️ System & Workflow Keybindings Reference
@@ -142,6 +146,49 @@ A complete bullet-point reference for your **Niri**, **DankMaterialShell / Dux S
 * **`Mod + Shift + P`** — Power off monitors (DPMS).
 * **`Mod + Escape`** — Toggle keyboard shortcuts inhibit.
 * **`Mod + Shift + E`** — Quit Niri session.
+
+---
+
+## 🐚 Terminal & Zsh Workflow Shortcuts (CLI, Git, Navigation & AI)
+
+Configured across `~/.zshrc`, `~/.config/alacritty/alacritty.toml`, and `~/.config/foot/foot.ini` with **Starship** prompt and **Neovim** integration.
+
+### Terminal Interactive Keybindings
+* **`Ctrl + G`** — Open **Lazygit** (floating Git TUI) directly in-place inside any terminal buffer.
+* **`Ctrl + R`** — Interactive **fzf** history search across 50,000 shared history entries.
+* **`Ctrl + T`** — Interactive **fzf** file finder with real-time **bat** syntax-highlighted preview.
+* **`Alt + C`** — Interactive **fzf** directory navigator with **eza** tree preview.
+* **`Tab`** — Interactive fuzzy tab completion with **`fzf-tab`** (syntax-highlighted previews for files/directories, process details for `kill`, branch previews for git).
+* **`Ctrl + Space`** or **`Right Arrow`** or **`Ctrl + E`** — Accept Fish-style autocomplete suggestion (`zsh-autosuggestions`).
+* **`Up` / `Down` Arrow** — History substring search matching the prefix currently typed on the prompt (`zsh-history-substring-search`).
+* **Automatic Pair Management** — Auto-closes quotes and brackets (`'`, `"`, `(`, `[`, `{`) and skips over closing pairs (`zsh-autopair`).
+
+### Interactive Search & File Commands
+* **`rgi [query]`** — **Interactive Ripgrep**: live full-text fuzzy search across your codebase with `bat` preview; press `Enter` to jump directly to the exact file and line in **Neovim**.
+* **`fif <pattern>`** — Search inside files for `<pattern>` with instant `bat` preview.
+* **`zp`** — **Neovim Project Jumper**: fuzzy-select any recent project (via `zoxide` frecency) with directory tree preview and open it immediately in **Neovim**.
+* **`fe`** — Fuzzy file picker; opens the selected file directly in **Neovim**.
+* **`fkill`** — Interactive process search and killer.
+* **`y`** — **Yazi File Manager**: blazingly fast async Rust file manager with Wayland image previews; automatically `cd`s to the selected directory on quit.
+* **`x <archive>`** / **`extract <archive>`** — Universal archive extractor (auto-detects and extracts `.tar.gz`, `.tar.bz2`, `.zip`, `.7z`, `.tar.zst`, `.rar`, etc.).
+* **`z <path>`** / **`zi`** — Smart directory jumping via **Zoxide** (`zi` opens interactive fuzzy selection).
+* **`direnv`** — Automatic per-directory environment loader (loads `.env` and virtualenvs on `cd`, unloads on exit).
+* **`zsh-you-should-use`** — Automatically reminds you of your concise aliases when typing long raw commands.
+
+### Modern CLI Replacements
+* **`ls`** / **`ll`** / **`la`** / **`lt`** — Powered by **`eza`** with icons, git status markers, and tree views.
+* **`cat`** — Powered by **`bat`** with syntax highlighting, line numbers, and git modifications.
+* **`git diff`** — Powered by **`git-delta`** with GitHub-style side-by-side color syntax highlighting.
+
+### AI CLI & Agent Shortcuts
+* **`agy`** — Antigravity CLI running with full auto-approve permissions (`--dangerously-skip-permissions`).
+* **`qoder`** / **`qodercli`** — Qoder CLI running with auto-approve permissions.
+* **`qoder-qwen`** — Qoder with `Qwen3.8-Flash` (xhigh reasoning effort).
+* **`qoder-deepseek`** — Qoder with `DeepSeek-Flash` (high reasoning effort).
+* **`boat`** — ASCII Boat Cloud Sandbox CLI runner with session state tracking.
+* **`boat-ref`** — Exec into persistent cloud sandbox **The Reference Edit** (`bx_4qhc25xp`).
+* **`boat-portrait`** — Exec into persistent cloud sandbox **Portrait Issue 02** (`bx_wbqyt3bf`).
+* **`boat-ref-ssh`** / **`boat-portrait-ssh`** — Direct SSH access to the persistent cloud sandboxes.
 
 ---
 

@@ -49,7 +49,8 @@ A complete bullet-point reference for your **Niri**, **DankMaterialShell / Dux S
 ## 🚀 Application Launchers & DMS Panels
 
 * **`Mod + T`** / **`Mod + Return`** — Open Terminal.
-* **`Mod + Shift + Return`** — Toggle **AI Agent Floating Scratchpad** (opens `alacritty` with `agy` in a centered floating overlay).
+* **`Mod + Shift + Return`** — Open **AI Agent Floating Scratchpad** (`alacritty` running `agy`, falling back to `zsh`, in a centered floating overlay; each press is a new window, not a toggle).
+* **`Mod + Alt + Return`** — Open **plain Scratchpad Terminal** (`alacritty` with your default shell, same centered floating overlay, no `agy`). Window class `scratchpad`; both share the floating window-rule `^(ai-)?scratchpad$`.
 * **`Mod + Shift + A`** — **Multimodal Snip-to-Agent** (select screen region with slurp/grim, saves to `~/.cache/agent-snips/` and copies `@path` directly to clipboard ready to paste into `agy`/`qoder`).
 * **`Mod + Shift + Space`** — **Local Voice Dictation to Prompt** (toggle recording mic audio and transcribes locally via `whisper-cpp` `ggml-base`, automatically typing into the active window and copying to clipboard).
 * **`Mod + Space`** — Toggle **Application Launcher (Spotlight)**.

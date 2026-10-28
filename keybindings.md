@@ -127,7 +127,7 @@ Bindings come from `~/.config/niri/config.kdl` and `~/.config/niri/dms/binds.kdl
 | `Mod + Ctrl + scroll ↔` | Move the column right · left |
 | `Mod + Shift + scroll ↕` | Focus column right · left — alias of `Mod + scroll ↔` |
 | `Mod + Ctrl + Shift + scroll ↕` | Move the column right · left — alias of `Mod + Ctrl + scroll ↔` |
-| `Mod + Ctrl + H J K L` · `Mod + Ctrl + ← / →` | Focus display — `H J K L` is left, down, up, right |
+| `Mod + Ctrl + H J K L` · `Mod + Ctrl + ←` · `Mod + Ctrl + →` | Focus display — `H J K L` is left, down, up, right; arrows cover left · right only |
 | `Mod + Shift + Ctrl + H J K L` · `Mod + Shift + Ctrl + Arrows` | Move the column to that display |
 
 ## Media & system

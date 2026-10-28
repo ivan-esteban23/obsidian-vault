@@ -66,7 +66,7 @@ A complete bullet-point reference for your **Niri**, **DankMaterialShell / Dux S
 * **`Mod + Shift + C`** — Toggle **Screen Color Picker**.
 * **`Mod + Alt + N`** — Toggle **Night Mode**.
 * **`Mod + Alt + I`** — Toggle **Idle Inhibit** (keep screen awake).
-* **`Mod + Alt + D`** — Open the **DNS Switcher panel** (Google / Cloudflare / Quad9 / MagicDNS / ISP).
+* **`Mod + Alt + D`** — Open the **DNS Switcher panel** (Google / Cloudflare / Quad9 / MagicDNS / ISP). Opens only: `openWith` is not a toggle, so a second press (or `Esc`) leaves it on screen — dismiss with `dms ipc call control-center toggle`.
 * **`Mod + Shift + /`** — Toggle **Keyboard Shortcuts Overlay**.
 
 ---
@@ -238,7 +238,7 @@ Built as a **Dux Shell widget plugin** (`~/.config/dms/plugins/imgPrompt/`) + he
 
 Built as a **Dux Shell widget plugin** (`~/.config/dms/plugins/dnsSwitcher/`) + helper script `~/.local/bin/dns-switch`. **No password required** — it drives NetworkManager profile DNS and Tailscale's `--accept-dns` flag, both permitted for your user.
 
-* **`Mod + Alt + D`** — Open the **DNS Switcher panel** (Control Center focused on the DNS card).
+* **`Mod + Alt + D`** — Open the **DNS Switcher panel** (Control Center focused on the DNS card). Open-only, not a toggle — see *Application Launchers & DMS Panels* above.
 * **Bar pill** — on the right of the primary DankBar, just before the Control Center cluster: server glyph + the **current provider short name** (*Google* / *Cloudflare* / *Quad9* / *MagicDNS* / *ISP*), tinted amber while the profiles and the resolver disagree. Clicking it opens a compact **popout** (IPv4/IPv6 line, the five provider rows, *Test speed*, *Cycle*) — **Refresh** and **Re-apply** only exist on the Control Center card, so use `Mod + Alt + D` for those.
 * Providers, each with **IPv4 + IPv6** servers:
   * **Google** — `8.8.8.8` `8.8.4.4` / `2001:4860:4860::8888` `2001:4860:4860::8844`

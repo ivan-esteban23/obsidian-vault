@@ -260,6 +260,21 @@ Built as a **Dux Shell widget plugin** (`~/.config/dms/plugins/dnsSwitcher/`) + 
 
 ---
 
+## 🪟 Custom: Scratchpads (Alacritty + Foot)
+
+Three floating-terminal bindings defined in `~/.config/niri/dms/binds.kdl`, all sharing one window-rule in `~/.config/niri/config.kdl`: `match app-id=r#"^(ai-)?scratchpad$"#` → `open-floating`, 70 % width × 80 % height. Every press **spawns a new window** — none of them toggles, and `Esc` does not close them; use the window's close button or `niri msg action close-window --id <ID>`.
+
+| Key | Terminal | Runs | App-id |
+| :--- | :--- | :--- | :--- |
+| `Mod + Shift + Return` | Alacritty | `zsh -c "agy \|\| zsh"` — the AI agent CLI, falling back to a plain shell | `ai-scratchpad` |
+| `Mod + Alt + Return` | Alacritty | your default shell, no agent CLI | `scratchpad` |
+| `Mod + Ctrl + Return` | foot | your default shell, no AI CLI of any kind (no `agy`, `opencode` or `qoder`) | `scratchpad` |
+
+* The two plain variants both use `--app-id=scratchpad` / `--class scratchpad`, so the same rule floats each one; only the AI variant matches the regex's `ai-` branch.
+* `Mod + Shift + Return` can open several AI scratchpads at once — each is an independent `agy` session.
+
+---
+
 ## 📡 Custom: App Launchers
 
 * **`Mod + S`** — Open **LocalSend** (was free — sudo timer uses the `Shift`/`Alt` variants of `S`).

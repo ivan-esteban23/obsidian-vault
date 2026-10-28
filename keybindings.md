@@ -38,14 +38,14 @@ Bindings come from `~/.config/niri/config.kdl` and `~/.config/niri/dms/binds.kdl
 | `Mod + Shift + Return` | AI scratchpad | Floating; `agy`, falling back to `zsh`; each press opens a new window |
 | `Mod + Alt + Return` | Scratchpad | Floating; Alacritty with your shell, no agent |
 | `Mod + Ctrl + Return` | Scratchpad | Floating; `foot` with your shell, no AI CLI at all |
-| `Mod + Space` | Spotlight | |
-| `Alt + Space` | Spotlight bar | |
+| `Mod + Space` | Spotlight | DMS launcher popup |
+| `Alt + Space` | Spotlight bar | Launcher input in the top bar |
 | `Mod + Shift + A` | Snip to agent | Select a region · saves to `~/.cache/agent-snips/` · copies `@path` |
 | `Mod + Shift + Space` | Voice dictation | Local whisper.cpp `ggml-base` · types into the focused window and copies the text |
-| `Mod + S` | LocalSend | |
-| `Mod + Shift + M` | VLC | |
+| `Mod + S` | LocalSend | AirDrop-style transfers between devices on the same network |
+| `Mod + Shift + M` | VLC | Full player — separate from the `Mod + M` multimedia panel |
 | `Mod + Alt + W` | WeChat | AppImage, also in the app launcher |
-| `Mod + Alt + T` | rqbit | |
+| `Mod + Alt + T` | rqbit | `rqbit-desktop`, its own GUI |
 
 ## Panels & toggles
 
@@ -116,8 +116,10 @@ Bindings come from `~/.config/niri/config.kdl` and `~/.config/niri/dms/binds.kdl
 | `Mod + Shift + 1…9` | Move the focused column to workspace |
 | `Mod + U` · `Mod + Page Down` | Workspace below |
 | `Mod + I` · `Mod + Page Up` | Workspace above |
-| `Mod + Ctrl + U / I` · `Mod + Ctrl + ↑ / ↓` | Move the column to the workspace below · above |
-| `Mod + Shift + U / I` · `Mod + Shift + Page Down / Up` | Move the workspace down · up |
+| `Mod + Ctrl + U` · `Mod + Ctrl + ↓` | Move the column to the workspace below |
+| `Mod + Ctrl + I` · `Mod + Ctrl + ↑` | Move the column to the workspace above |
+| `Mod + Shift + U` · `Mod + Shift + Page Down` | Move the workspace down |
+| `Mod + Shift + I` · `Mod + Shift + Page Up` | Move the workspace up |
 | `Mod + Alt + R` | Rename the current workspace |
 | `Mod + scroll ↕` | Focus workspace below · above |
 | `Mod + scroll ↔` | Focus column right · left |

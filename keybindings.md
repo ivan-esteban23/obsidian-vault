@@ -46,6 +46,9 @@ A complete bullet-point reference for your **Niri**, **DankMaterialShell / Dux S
 ## 🚀 Application Launchers & DMS Panels
 
 * **`Mod + T`** / **`Mod + Return`** — Open Terminal.
+* **`Mod + Shift + Return`** — Toggle **AI Agent Floating Scratchpad** (opens `alacritty` with `agy` in a centered floating overlay).
+* **`Mod + Shift + A`** — **Multimodal Snip-to-Agent** (select screen region with slurp/grim, saves to `~/.cache/agent-snips/` and copies `@path` directly to clipboard ready to paste into `agy`/`qoder`).
+* **`Mod + Shift + Space`** — **Local Voice Dictation to Prompt** (toggle recording mic audio and transcribes locally via `whisper-cpp` `ggml-base`, automatically typing into the active window and copying to clipboard).
 * **`Mod + Space`** — Toggle **Application Launcher (Spotlight)**.
 * **`Alt + Space`** — Toggle **Spotlight Bar**.
 * **`Mod + D`** — Toggle **DankDash** (Overview, Multimedia, Wallpapers, Weather, Settings).
@@ -185,6 +188,8 @@ Configured across `~/.zshrc`, `~/.config/alacritty/alacritty.toml`, and `~/.conf
 * **`qoder`** / **`qodercli`** — Qoder CLI running with auto-approve permissions.
 * **`qoder-qwen`** — Qoder with `Qwen3.8-Flash` (xhigh reasoning effort).
 * **`qoder-deepseek`** — Qoder with `DeepSeek-Flash` (high reasoning effort).
+* **`gwt new|agy|cd|ls|rm`** — **Parallel Agent Git Worktrees** (create isolated worktree branch in `../worktrees/` and optionally launch `agy` immediately).
+* **Long-Running Task Toast (>15s)** — Automatic desktop notification via `notify-send` when background builds, tests, or agent commands finish.
 * **`boat`** — ASCII Boat Cloud Sandbox CLI runner with session state tracking.
 * **`boat-ref`** — Exec into persistent cloud sandbox **The Reference Edit** (`bx_4qhc25xp`).
 * **`boat-portrait`** — Exec into persistent cloud sandbox **Portrait Issue 02** (`bx_wbqyt3bf`).
@@ -251,6 +256,8 @@ Built as a **Dux Shell widget plugin** (`~/.config/dms/plugins/imgPrompt/`) + he
 * **`clip-attach-helper`** — clipboard image/text staging used by the Nautilus bridge and history plugin
 * **`toggle-drag-shelf`** — toggles the floating drag-and-drop clipboard shelf (`Mod + B`)
 * **`toggle-dnd`** — toggles Do Not Disturb in DMS notifications with an on-screen toast popup (`Mod + Shift + D`)
+* **`agent-snip`** — captures screen region with slurp/grim and copies `@path` for AI agents (`Mod + Shift + A`)
+* **`voice-dictate`** — toggles local Whisper voice prompt dictation and automatic typing (`Mod + Shift + Space`)
 * **`obsidian-vault`** — `status | sync | init-git | backup | bundle | restore | new` (vault management, backup & git sync CLI)
 
 ## 🌐 WebApps (site → Brave app window)

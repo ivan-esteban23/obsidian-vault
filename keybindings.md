@@ -13,6 +13,9 @@ tags:
   - localsend
   - vlc
   - webapp
+  - dns
+  - network
+  - tailscale
   - zsh
   - terminal
   - fzf
@@ -63,6 +66,7 @@ A complete bullet-point reference for your **Niri**, **DankMaterialShell / Dux S
 * **`Mod + Shift + C`** — Toggle **Screen Color Picker**.
 * **`Mod + Alt + N`** — Toggle **Night Mode**.
 * **`Mod + Alt + I`** — Toggle **Idle Inhibit** (keep screen awake).
+* **`Mod + Alt + D`** — Open the **DNS Switcher panel** (Google / Cloudflare / Quad9 / MagicDNS / ISP).
 * **`Mod + Shift + /`** — Toggle **Keyboard Shortcuts Overlay**.
 
 ---
@@ -230,6 +234,30 @@ Built as a **Dux Shell widget plugin** (`~/.config/dms/plugins/imgPrompt/`) + he
 
 ---
 
+## 🌐 Custom: DNS Switcher (Google / Cloudflare / Quad9 / MagicDNS / ISP)
+
+Built as a **Dux Shell widget plugin** (`~/.config/dms/plugins/dnsSwitcher/`) + helper script `~/.local/bin/dns-switch`. **No password required** — it drives NetworkManager profile DNS and Tailscale's `--accept-dns` flag, both permitted for your user.
+
+* **`Mod + Alt + D`** — Open the **DNS Switcher panel** (Control Center focused on the DNS card).
+* **Bar pill** — on the right of the primary DankBar, just before the Control Center cluster: server glyph + the **current provider short name** (*Google* / *Cloudflare* / *Quad9* / *MagicDNS* / *ISP*), tinted amber while the profiles and the resolver disagree. Clicking it opens a compact **popout** (IPv4/IPv6 line, the five provider rows, *Test speed*, *Cycle*) — **Refresh** and **Re-apply** only exist on the Control Center card, so use `Mod + Alt + D` for those.
+* Providers, each with **IPv4 + IPv6** servers:
+  * **Google** — `8.8.8.8` `8.8.4.4` / `2001:4860:4860::8888` `2001:4860:4860::8844`
+  * **Cloudflare** — `1.1.1.1` `1.0.0.1` / `2606:4700:4700::1111` `2606:4700:4700::1001`
+  * **Quad9** — `9.9.9.9` `149.112.112.112` / `2620:fe::fe` `2620:fe::9` (malice-filtering)
+  * **Tailscale MagicDNS** — `100.100.100.100` / `fd7a:115c:a1e0::53` + the `tail7b672e.ts.net` search domain
+  * **ISP / Router (DHCP)** — no overrides at all, MagicDNS off
+* Bullets:
+  * Panel actions: **Cycle**, **Test speed** (live latency probe of every server over IPv4 *and* IPv6), **Refresh**, and **Re-apply** whenever the profiles and the resolver disagree.
+  * Mechanism: `nmcli connection modify` on every ethernet/Wi-Fi profile (`ipv4.dns`/`ipv6.dns` + `ignore-auto-dns yes` + `dns-priority 100`) then `nmcli device reapply`. For MagicDNS it clears the overrides and re-toggles `tailscale set --accept-dns` so Tailscale writes `/etc/resolv.conf` **last** — otherwise a late NetworkManager update silently clobbers MagicDNS.
+  * glibc only honours the **first 3** nameservers, so with 2×IPv4 + 2×IPv6 the panel lists the 4th as ignored.
+  * Joining a new Wi-Fi network leaves that profile without the override → the Control Center card turns amber (*Out of sync*); press **Re-apply**.
+  * Terminal: `dns-switch status | current | providers | apply <provider> | cycle | test`
+  * State: `~/.cache/dns-switch/state.json`.
+  * **Pill id gotcha**: DankBar lists plugin widgets by the **bare** plugin id — `"dnsSwitcher"` in `~/.config/dms/settings.json` → `barConfigs[].rightWidgets`. Only **Control Center** tiles use the `plugin_` prefix, so `plugin_dnsSwitcher` in the bar renders nothing at all (no error, no warning). The bar gate is the *widget surface* (`type: "widget"` in `plugin.json`); the extra `ccWidgetIcon` requirement applies only to the Control Center tile list.
+  * **Applying bar-config edits**: the `settings` IPC only accepts scalars — arrays/objects fail with *"Setting Objects and Arrays not supported"* (`SETTINGS_SET_FAILURE`; the reason is in `journalctl --user`, not the CLI). Edit `settings.json` by hand and `dms restart`. Verify with `dms ipc call widget toggle dnsSwitcher` (opens the popout headlessly); `widget status` is useless here — it answers `WIDGET_NO_POPOUT` for builtins like `clipboard` too.
+
+---
+
 ## 📡 Custom: App Launchers
 
 * **`Mod + S`** — Open **LocalSend** (was free — sudo timer uses the `Shift`/`Alt` variants of `S`).
@@ -248,6 +276,7 @@ Built as a **Dux Shell widget plugin** (`~/.config/dms/plugins/imgPrompt/`) + he
 * **`clipboardHistoryPlus`** *(widget)* — visual clipboard history modal with pin/restore/save. → `ClipboardHistoryWidget.qml`
 * **`mediaThumbnailEnhancer`** *(daemon)* — hi-res album/video thumbnails + clean metadata for Bandcamp/YouTube/Spotify/SoundCloud. → `MediaThumbnailDaemon.qml`
 * **`nautilusClipboardAttach`** *(widget)* — the Nautilus ↔ terminal/browser clipboard bridge described above. → `NautilusClipboardAttach*.qml`
+* **`dnsSwitcher`** *(widget)* — switch DNS between **Google / Cloudflare / Quad9 / Tailscale MagicDNS / ISP** with IPv4 + IPv6, latency probe and drift re-apply — rootless; bar pill + `Mod + Alt + D`. → `plugin.json`, `DnsSwitcherWidget.qml`
 
 ### Helper scripts (`~/.local/bin/`)
 * **`sudo-timer`** — `start | tick | status | stop | expire` (state: `~/.cache/sudo-timer/state.json`)
@@ -259,6 +288,7 @@ Built as a **Dux Shell widget plugin** (`~/.config/dms/plugins/imgPrompt/`) + he
 * **`agent-snip`** — captures screen region with slurp/grim and copies `@path` for AI agents (`Mod + Shift + A`)
 * **`voice-dictate`** — toggles local Whisper voice prompt dictation and automatic typing (`Mod + Shift + Space`)
 * **`obsidian-vault`** — `status | sync | init-git | backup | bundle | restore | new` (vault management, backup & git sync CLI)
+* **`dns-switch`** — `status | current | providers | apply google|cloudflare|quad9|magicdns|isp | cycle | test` (rootless DNS switcher behind the `dnsSwitcher` plugin, `Mod + Alt + D`)
 
 ## 🌐 WebApps (site → Brave app window)
 

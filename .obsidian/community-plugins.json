@@ -1,5 +1,4 @@
 [
-  "obsidian-image-toolkit",
   "mousewheel-image-zoom",
   "image-captions",
   "emoji-shortcodes",
@@ -14,10 +13,19 @@
   "obsidian-auto-link-title",
   "templater-obsidian",
   "dataview",
-  "calendar",
   "table-editor-obsidian",
   "obsidian-reading-time",
   "obsidian-admonition",
   "better-word-count",
-  "obsidian-outliner"
+  "obsidian-outliner",
+  "music-map-navigation",
+  "calendar-beta",
+  "obsidian-media-db-plugin",
+  "obsidian-image-toolkit",
+  "obsidian-tasks-plugin",
+  "write-good",
+  "light-mindmap",
+  "quickadd",
+  "homepage",
+  "periodic-notes"
 ]

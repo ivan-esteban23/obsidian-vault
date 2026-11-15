@@ -1,10 +1,10 @@
 {
-  "accentColor": "#d0bcff",
-  "interfaceFontFamily": "Inter",
-  "textFontFamily": "Atkinson Hyperlegible, Inter, IBM Plex Sans",
-  "monospaceFontFamily": "JetBrainsMono Nerd Font",
-  "baseFontSize": 17,
   "enabledCssSnippets": [
-    "dank-visuals"
-  ]
+    "black-metal-magazine",
+    "horror-books-2026",
+    "thriller-books-2026",
+    "goth-rock-2026",
+    "indie-alternative-2026"
+  ],
+  "showRibbon": true
 }

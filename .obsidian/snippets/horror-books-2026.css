@@ -1,0 +1,15 @@
+/* Editorial styling restricted to the 2026 horror reading guide. */
+.horror-books-2026 { --horror-accent: #9b5148; --horror-ink: var(--text-normal); }
+.theme-dark .horror-books-2026 { --horror-accent: #e29a87; }
+.markdown-preview-view.horror-books-2026 { --file-line-width: 900px; font-family: Georgia, 'Times New Roman', serif; font-size: 17px; line-height: 1.65; }
+.markdown-preview-view.horror-books-2026 h1, .markdown-preview-view.horror-books-2026 h2 { font-family: 'Segoe UI', Arial, sans-serif; letter-spacing: -.025em; color: var(--horror-ink); }
+.markdown-preview-view.horror-books-2026 h1 { font-size: 2.35em; line-height: 1.12; border-bottom: 2px solid var(--horror-accent); padding-bottom: .3em; margin-top: 1.7em; }
+.markdown-preview-view.horror-books-2026 h2 { clear: both; font-size: 1.6em; margin-top: 2em; line-height: 1.2; }
+.markdown-preview-view.horror-books-2026 a { color: var(--horror-accent); text-underline-offset: 3px; }
+.markdown-preview-view.horror-books-2026 .image-embed { float: left; margin: .2em 1.4em 1em 0; }
+.markdown-preview-view.horror-books-2026 .image-embed img { width: 150px; height: auto; border-radius: 2px; box-shadow: 0 5px 18px #0004; }
+.markdown-preview-view.horror-books-2026 hr { clear: both; border-color: var(--background-modifier-border); margin: 2em 0; }
+.markdown-preview-view.horror-books-2026 .callout { border-left: 3px solid var(--horror-accent); }
+@media (max-width: 520px) { .markdown-preview-view.horror-books-2026 .image-embed { float: none; display: block; margin: 0 0 1em; } }
+
+.markdown-preview-view.horror-books-2026 .metadata-container, .markdown-preview-view.horror-books-2026 .inline-title { display: none; }

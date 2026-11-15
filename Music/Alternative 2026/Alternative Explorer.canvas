@@ -1,0 +1,625 @@
+{
+  "nodes": [
+    {
+      "id": "6acd87edb8c57a88",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 2180,
+      "height": 260,
+      "color": "#514022",
+      "text": "# ALTERNATIVE / 2026\n\nTHIRTY RELEASES / FOUR LISTENING ROUTES\n\nOutside the Lines\n\n[[Outside the Lines - Alternative 2026|READ THE ISSUE]] / [[Music/Genres/Alternative|COLLECTION HUB]] / [[Music/Alternative 2026/Alternative Explorer.canvas|EXPLORER]] / [[Music/Music Genre Map.canvas|MUSIC MAP]]"
+    },
+    {
+      "id": "dd8de8d3e927dbb9",
+      "type": "group",
+      "x": 0,
+      "y": 360,
+      "width": 2180,
+      "height": 2560,
+      "color": "#514022",
+      "label": "ALTERNATIVE ROCK"
+    },
+    {
+      "id": "ae0679c60b3c3e5f",
+      "type": "file",
+      "file": "attachments/Alternative 2026/01-silversun-pickups.jpg",
+      "x": 130,
+      "y": 450,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "bd694099d8894ebe",
+      "type": "text",
+      "x": 40,
+      "y": 780,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 01 / ALTERNATIVE ROCK\n## [[Music/Albums/Silversun Pickups - Tenterhooks|Silversun Pickups]]\n*Tenterhooks*\n\n2026-02-06 · Alternative rock / shoegaze / dream pop\n\n**Start:** New Wave\n\n[[Outside the Lines - Alternative 2026#01 Silversun Pickups - Tenterhooks|READ / LISTEN]]"
+    },
+    {
+      "id": "71932d1b500cefba",
+      "type": "file",
+      "file": "attachments/Alternative 2026/02-the-twilight-sad.jpg",
+      "x": 670,
+      "y": 450,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "33e0797c29fc627d",
+      "type": "text",
+      "x": 580,
+      "y": 780,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 02 / ALTERNATIVE ROCK\n## [[Music/Albums/The Twilight Sad - IT'S THE LONG GOODBYE|The Twilight Sad]]\n*IT'S THE LONG GOODBYE*\n\n2026-03-27 · Scottish indie rock / shoegaze\n\n**Start:** GET AWAY FROM IT ALL\n\n[[Outside the Lines - Alternative 2026#02 The Twilight Sad - IT'S THE LONG GOODBYE|READ / LISTEN]]"
+    },
+    {
+      "id": "db8471bc685c8eef",
+      "type": "file",
+      "file": "attachments/Alternative 2026/03-gather-the-lost.jpg",
+      "x": 1210,
+      "y": 450,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "62ea5e7599ea6d8d",
+      "type": "text",
+      "x": 1120,
+      "y": 780,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 03 / ALTERNATIVE ROCK\n## [[Music/Albums/Gather the Lost - Silver Lining|Gather the Lost]]\n*Silver Lining*\n\n2026-04-17 · Alternative rock\n\n**Start:** This Time\n\n[[Outside the Lines - Alternative 2026#03 Gather the Lost - Silver Lining|READ / LISTEN]]"
+    },
+    {
+      "id": "4b0588d9859d96a2",
+      "type": "file",
+      "file": "attachments/Alternative 2026/04-failure.jpg",
+      "x": 1750,
+      "y": 450,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "7a9d932fa842922a",
+      "type": "text",
+      "x": 1660,
+      "y": 780,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 04 / ALTERNATIVE ROCK\n## [[Music/Albums/Failure - Location Lost|Failure]]\n*Location Lost*\n\n2026-04-24 · Alternative rock / experimental rock / space rock\n\n**Start:** Crash Test Delayed\n\n[[Outside the Lines - Alternative 2026#04 Failure - Location Lost|READ / LISTEN]]"
+    },
+    {
+      "id": "4d2a47451b2a9067",
+      "type": "file",
+      "file": "attachments/Alternative 2026/05-weird-nightmare.jpg",
+      "x": 130,
+      "y": 1270,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "f7851daa4fec272d",
+      "type": "text",
+      "x": 40,
+      "y": 1600,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 05 / ALTERNATIVE ROCK\n## [[Music/Albums/Weird Nightmare - Hoopla|Weird Nightmare]]\n*Hoopla*\n\n2026-05-01 · Power pop / indie rock / fuzzy guitar pop\n\n**Start:** Headful of Rain\n\n[[Outside the Lines - Alternative 2026#05 Weird Nightmare - Hoopla|READ / LISTEN]]"
+    },
+    {
+      "id": "1443f2b5bbfd8130",
+      "type": "file",
+      "file": "attachments/Alternative 2026/06-basement.jpg",
+      "x": 670,
+      "y": 1270,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "138ce8228a0ccf6f",
+      "type": "text",
+      "x": 580,
+      "y": 1600,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 06 / ALTERNATIVE ROCK\n## [[Music/Albums/Basement - WIRED|Basement]]\n*WIRED*\n\n2026-05-08 · Alternative guitar rock / emo\n\n**Start:** WIRED\n\n[[Outside the Lines - Alternative 2026#06 Basement - WIRED|READ / LISTEN]]"
+    },
+    {
+      "id": "6d002824e432ac17",
+      "type": "file",
+      "file": "attachments/Alternative 2026/07-a.jpg",
+      "x": 1210,
+      "y": 1270,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "efb901276394c65c",
+      "type": "text",
+      "x": 1120,
+      "y": 1600,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 07 / ALTERNATIVE ROCK\n## [[Music/Albums/A - PRANG|A]]\n*PRANG*\n\n2026-05-22 · Alternative rock / pop-punk\n\n**Start:** Hello Sunshine\n\n[[Outside the Lines - Alternative 2026#07 A - PRANG|READ / LISTEN]]"
+    },
+    {
+      "id": "951dd68fda043dfc",
+      "type": "file",
+      "file": "attachments/Alternative 2026/08-all-now.jpg",
+      "x": 1750,
+      "y": 1270,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "6656cae25c138b4b",
+      "type": "text",
+      "x": 1660,
+      "y": 1600,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 08 / ALTERNATIVE ROCK\n## [[Music/Albums/ALL NOW - The Beautiful Living & The Glorious Dead|ALL NOW]]\n*The Beautiful Living & The Glorious Dead*\n\n2026-07-17 · Alternative rock / emo / pop-punk\n\n**Start:** Meet Me At Victoria\n\n[[Outside the Lines - Alternative 2026#08 ALL NOW - The Beautiful Living & The Glorious Dead|READ / LISTEN]]"
+    },
+    {
+      "id": "9d539d9bb42c7460",
+      "type": "file",
+      "file": "attachments/Alternative 2026/09-citizen.jpg",
+      "x": 130,
+      "y": 2090,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "5f0dbb2b77f182a4",
+      "type": "text",
+      "x": 40,
+      "y": 2420,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 09 / ALTERNATIVE ROCK\n## [[Music/Albums/Citizen - Halcyon Blues|Citizen]]\n*Halcyon Blues*\n\n2026-08-07 · Alternative rock / emo / indie-pop elements\n\n**Start:** Halcyon Blues\n\n[[Outside the Lines - Alternative 2026#09 Citizen - Halcyon Blues|READ / LISTEN]]"
+    },
+    {
+      "id": "6419ac4b209abdc1",
+      "type": "file",
+      "file": "attachments/Alternative 2026/10-interpol.jpg",
+      "x": 670,
+      "y": 2090,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "fdb40e19c110e54d",
+      "type": "text",
+      "x": 580,
+      "y": 2420,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 10 / ALTERNATIVE ROCK\n## [[Music/Albums/Interpol - This Mirror Weighs a Ton|Interpol]]\n*This Mirror Weighs a Ton*\n\n2026-08-28 · Rock / atmospheric arrangements\n\n**Start:** This Mirror Weighs a Ton\n\n[[Outside the Lines - Alternative 2026#10 Interpol - This Mirror Weighs a Ton|READ / LISTEN]]"
+    },
+    {
+      "id": "3622564a1c541bed",
+      "type": "group",
+      "x": 0,
+      "y": 3050,
+      "width": 2180,
+      "height": 920,
+      "color": "#514022",
+      "label": "GRUNGE & GRUNGEGAZE"
+    },
+    {
+      "id": "3243a41ae029650c",
+      "type": "file",
+      "file": "attachments/Alternative 2026/11-larikin.jpg",
+      "x": 130,
+      "y": 3140,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "9d4e2da37a66a1ee",
+      "type": "text",
+      "x": 40,
+      "y": 3470,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 11 / GRUNGE & GRUNGEGAZE\n## [[Music/Albums/Larikin - Ripe|Larikin]]\n*Ripe*\n\n2026-08-10 · Grunge / alternative rock / noise rock\n\n**Start:** Deep Sea\n\n[[Outside the Lines - Alternative 2026#11 Larikin - Ripe|READ / LISTEN]]"
+    },
+    {
+      "id": "15bfaf88adf2ef84",
+      "type": "file",
+      "file": "attachments/Alternative 2026/12-lobug.jpg",
+      "x": 670,
+      "y": 3140,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "ca32c3cb13ff8c41",
+      "type": "text",
+      "x": 580,
+      "y": 3470,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 12 / GRUNGE & GRUNGEGAZE\n## [[Music/Albums/lobug - Challenger|lobug]]\n*Challenger*\n\n2026-08-14 · Grunge / alternative rock / shoegaze\n\n**Start:** Motorbike\n\n[[Outside the Lines - Alternative 2026#12 lobug - Challenger|READ / LISTEN]]"
+    },
+    {
+      "id": "cdde319d2f58c65b",
+      "type": "file",
+      "file": "attachments/Alternative 2026/13-dinosaur-jr.jpg",
+      "x": 1210,
+      "y": 3140,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "4a4398082e27c16b",
+      "type": "text",
+      "x": 1120,
+      "y": 3470,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 13 / GRUNGE & GRUNGEGAZE\n## [[Music/Albums/Dinosaur Jr. - There Near|Dinosaur Jr.]]\n*There Near*\n\n2026-08-28 · Alternative rock / noise rock / grunge\n\n**Start:** Several Got Away\n\n[[Outside the Lines - Alternative 2026#13 Dinosaur Jr. - There Near|READ / LISTEN]]"
+    },
+    {
+      "id": "45cace24f5bb7b3a",
+      "type": "file",
+      "file": "attachments/Alternative 2026/14-weatherell.jpg",
+      "x": 1750,
+      "y": 3140,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "e4a29c20f3ef9d67",
+      "type": "text",
+      "x": 1660,
+      "y": 3470,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 14 / GRUNGE & GRUNGEGAZE\n## [[Music/Albums/Weatherell - Lonely Soul|Weatherell]]\n*Lonely Soul*\n\n2026-09-18 · Grunge / shoegaze / alternative rock / electronica\n\n**Start:** Candy Eyes\n\n[[Outside the Lines - Alternative 2026#14 Weatherell - Lonely Soul|READ / LISTEN]]"
+    },
+    {
+      "id": "e3e30fad643fa768",
+      "type": "group",
+      "x": 0,
+      "y": 4100,
+      "width": 2180,
+      "height": 2560,
+      "color": "#514022",
+      "label": "NOISE ROCK & ART PUNK"
+    },
+    {
+      "id": "3b9fc88c1d4a0147",
+      "type": "file",
+      "file": "attachments/Alternative 2026/15-dry-cleaning.jpg",
+      "x": 130,
+      "y": 4190,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "ac5aa62da2565413",
+      "type": "text",
+      "x": 40,
+      "y": 4520,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 15 / NOISE ROCK & ART PUNK\n## [[Music/Albums/Dry Cleaning - Secret Love|Dry Cleaning]]\n*Secret Love*\n\n2026-01-09 · Experimental rock / post-punk / no-wave elements\n\n**Start:** Hit My Head All Day\n\n[[Outside the Lines - Alternative 2026#15 Dry Cleaning - Secret Love|READ / LISTEN]]"
+    },
+    {
+      "id": "a84b6212ae009bbe",
+      "type": "file",
+      "file": "attachments/Alternative 2026/16-mclusky.jpg",
+      "x": 670,
+      "y": 4190,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "4bce59028a7f903d",
+      "type": "text",
+      "x": 580,
+      "y": 4520,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 16 / NOISE ROCK & ART PUNK\n## [[Music/Albums/mclusky - i sure am getting sick of this bowling alley|mclusky]]\n*i sure am getting sick of this bowling alley*\n\n2026-03-20 · Post-punk / abrasive guitar music\n\n**Start:** as a dad\n\n[[Outside the Lines - Alternative 2026#16 mclusky - i sure am getting sick of this bowling alley|READ / LISTEN]]"
+    },
+    {
+      "id": "ce9b9dbaf6339252",
+      "type": "file",
+      "file": "attachments/Alternative 2026/17-noisext.jpg",
+      "x": 1210,
+      "y": 4190,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "81c2fad53c9c6325",
+      "type": "text",
+      "x": 1120,
+      "y": 4520,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 17 / NOISE ROCK & ART PUNK\n## [[Music/Albums/Noisext - S-T|Noisext]]\n*S-T*\n\n2026-06-12 · Noise rock\n\n**Start:** 201\n\n[[Outside the Lines - Alternative 2026#17 Noisext - S-T|READ / LISTEN]]"
+    },
+    {
+      "id": "d527d989db932042",
+      "type": "file",
+      "file": "attachments/Alternative 2026/18-t.jpg",
+      "x": 1750,
+      "y": 4190,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "50ec7606b30a85f5",
+      "type": "text",
+      "x": 1660,
+      "y": 4520,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 18 / NOISE ROCK & ART PUNK\n## [[Music/Albums/ÜT - Resonare|ÜT]]\n*Resonare*\n\n2026-06-19 · Noise rock / post-hardcore / post-punk\n\n**Start:** Febbre\n\n[[Outside the Lines - Alternative 2026#18 ÜT - Resonare|READ / LISTEN]]"
+    },
+    {
+      "id": "34202da24007bcb9",
+      "type": "file",
+      "file": "attachments/Alternative 2026/19-hiss.jpg",
+      "x": 130,
+      "y": 5010,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "2ca381126e31e009",
+      "type": "text",
+      "x": 40,
+      "y": 5340,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 19 / NOISE ROCK & ART PUNK\n## [[Music/Albums/HISS - A CHEAPENED CROWN|HISS]]\n*A CHEAPENED CROWN*\n\n2026-08-21 · Noise rock / post-hardcore\n\n**Start:** A CHEAPENED CROWN\n\n[[Outside the Lines - Alternative 2026#19 HISS - A CHEAPENED CROWN|READ / LISTEN]]"
+    },
+    {
+      "id": "7c720d8a4ea9a6e9",
+      "type": "file",
+      "file": "attachments/Alternative 2026/20-chat-pile.jpg",
+      "x": 670,
+      "y": 5010,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "bd857b972dfd4df5",
+      "type": "text",
+      "x": 580,
+      "y": 5340,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 20 / NOISE ROCK & ART PUNK\n## [[Music/Albums/Chat Pile - Who Loves The Sun|Chat Pile]]\n*Who Loves The Sun*\n\n2026-09-04 · Noise rock / industrial and sludge elements\n\n**Start:** Creature\n\n[[Outside the Lines - Alternative 2026#20 Chat Pile - Who Loves The Sun|READ / LISTEN]]"
+    },
+    {
+      "id": "f6b67b04c03a45ba",
+      "type": "file",
+      "file": "attachments/Alternative 2026/21-id-id-id.jpg",
+      "x": 1210,
+      "y": 5010,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "ae5c266913afe05f",
+      "type": "text",
+      "x": 1120,
+      "y": 5340,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 21 / NOISE ROCK & ART PUNK\n## [[Music/Albums/ID ID ID - Sour|ID ID ID]]\n*Sour*\n\n2026-09-04 · Noise rock / post-punk / post-rock\n\n**Start:** Treacle Man\n\n[[Outside the Lines - Alternative 2026#21 ID ID ID - Sour|READ / LISTEN]]"
+    },
+    {
+      "id": "d37b71ee229df062",
+      "type": "file",
+      "file": "attachments/Alternative 2026/22-ritual-error.jpg",
+      "x": 1750,
+      "y": 5010,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "30efb32bb0303ff6",
+      "type": "text",
+      "x": 1660,
+      "y": 5340,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 22 / NOISE ROCK & ART PUNK\n## [[Music/Albums/Ritual Error - Terminal With Benefits|Ritual Error]]\n*Terminal With Benefits*\n\n2026-09-25 · Noise rock / post-hardcore / post-punk\n\n**Start:** Tapeworm\n\n[[Outside the Lines - Alternative 2026#22 Ritual Error - Terminal With Benefits|READ / LISTEN]]"
+    },
+    {
+      "id": "3979daf2a23e36d2",
+      "type": "file",
+      "file": "attachments/Alternative 2026/23-djunah.jpg",
+      "x": 130,
+      "y": 5830,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "c39621fb0374e21e",
+      "type": "text",
+      "x": 40,
+      "y": 6160,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 23 / NOISE ROCK & ART PUNK\n## [[Music/Albums/Djunah - Giallo|Djunah]]\n*Giallo*\n\n2026-10-30 · Noise rock / experimental arrangements\n\n**Start:** Rotting Age\n\n[[Outside the Lines - Alternative 2026#23 Djunah - Giallo|READ / LISTEN]]"
+    },
+    {
+      "id": "ad1b3fc221702388",
+      "type": "group",
+      "x": 0,
+      "y": 6790,
+      "width": 2180,
+      "height": 1740,
+      "color": "#514022",
+      "label": "SHOEGAZE & EXPERIMENTAL ROCK"
+    },
+    {
+      "id": "faf9b1869f613d3e",
+      "type": "file",
+      "file": "attachments/Alternative 2026/24-trauma-ray.jpg",
+      "x": 130,
+      "y": 6880,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "bf423da1bf55ba44",
+      "type": "text",
+      "x": 40,
+      "y": 7210,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 24 / SHOEGAZE & EXPERIMENTAL ROCK\n## [[Music/Albums/trauma ray - Carnival|trauma ray]]\n*Carnival*\n\n2026-02-20 · Shoegaze / grunge / alternative rock\n\n**Start:** Hannibal\n\n[[Outside the Lines - Alternative 2026#24 trauma ray - Carnival|READ / LISTEN]]"
+    },
+    {
+      "id": "efd6ec2be1ec9993",
+      "type": "file",
+      "file": "attachments/Alternative 2026/25-nothing.jpg",
+      "x": 670,
+      "y": 6880,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "3d067a33f157eaa1",
+      "type": "text",
+      "x": 580,
+      "y": 7210,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 25 / SHOEGAZE & EXPERIMENTAL ROCK\n## [[Music/Albums/Nothing - a short history of decay|Nothing]]\n*a short history of decay*\n\n2026-02-27 · Heavy shoegaze / grunge elements\n\n**Start:** cannibal world\n\n[[Outside the Lines - Alternative 2026#25 Nothing - a short history of decay|READ / LISTEN]]"
+    },
+    {
+      "id": "41ef23f843e2910e",
+      "type": "file",
+      "file": "attachments/Alternative 2026/26-waves-crashing.jpg",
+      "x": 1210,
+      "y": 6880,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "a95234698c389a98",
+      "type": "text",
+      "x": 1120,
+      "y": 7210,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 26 / SHOEGAZE & EXPERIMENTAL ROCK\n## [[Music/Albums/Waves Crashing - In The Blur|Waves Crashing]]\n*In The Blur*\n\n2026-05-20 · Shoegaze / alternative rock / post-punk\n\n**Start:** Feel The Glow\n\n[[Outside the Lines - Alternative 2026#26 Waves Crashing - In The Blur|READ / LISTEN]]"
+    },
+    {
+      "id": "690a3e2fee506c10",
+      "type": "file",
+      "file": "attachments/Alternative 2026/27-slift.jpg",
+      "x": 1750,
+      "y": 6880,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "6c34cb4f50cc6536",
+      "type": "text",
+      "x": 1660,
+      "y": 7210,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 27 / SHOEGAZE & EXPERIMENTAL ROCK\n## [[Music/Albums/SLIFT - FANTASIA|SLIFT]]\n*FANTASIA*\n\n2026-06-05 · Psychedelic rock / space rock\n\n**Start:** Fantasia\n\n[[Outside the Lines - Alternative 2026#27 SLIFT - FANTASIA|READ / LISTEN]]"
+    },
+    {
+      "id": "14d7d5a59ed2563f",
+      "type": "file",
+      "file": "attachments/Alternative 2026/28-sunstinger.jpg",
+      "x": 130,
+      "y": 7700,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "429a717e33d73510",
+      "type": "text",
+      "x": 40,
+      "y": 8030,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 28 / SHOEGAZE & EXPERIMENTAL ROCK\n## [[Music/Albums/Sunstinger - SPARE ME THE RAPTURE|Sunstinger]]\n*SPARE ME THE RAPTURE*\n\n2026-08-27 · Shoegaze / noise rock / alternative rock\n\n**Start:** SPARE ME THE RAPTURE\n\n[[Outside the Lines - Alternative 2026#28 Sunstinger - SPARE ME THE RAPTURE|READ / LISTEN]]"
+    },
+    {
+      "id": "13306a590cae73d8",
+      "type": "file",
+      "file": "attachments/Alternative 2026/29-shades-of-violette.jpg",
+      "x": 670,
+      "y": 7700,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "2227d802a7915da6",
+      "type": "text",
+      "x": 580,
+      "y": 8030,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 29 / SHOEGAZE & EXPERIMENTAL ROCK\n## [[Music/Albums/Shades of Violette - Evernear|Shades of Violette]]\n*Evernear*\n\n2026-10-02 · Shoegaze / alternative rock / dream pop\n\n**Start:** Moonflower\n\n[[Outside the Lines - Alternative 2026#29 Shades of Violette - Evernear|READ / LISTEN]]"
+    },
+    {
+      "id": "ab4c9f284069d251",
+      "type": "file",
+      "file": "attachments/Alternative 2026/30-wishy.jpg",
+      "x": 1210,
+      "y": 7700,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "1b0bef2f1a613363",
+      "type": "text",
+      "x": 1120,
+      "y": 8030,
+      "width": 480,
+      "height": 400,
+      "color": "#514022",
+      "text": "### 30 / SHOEGAZE & EXPERIMENTAL ROCK\n## [[Music/Albums/Wishy - Nature's Pill|Wishy]]\n*Nature's Pill*\n\n2026-10-02 · Shoegaze / alternative rock / jangle pop\n\n**Start:** All The Rage\n\n[[Outside the Lines - Alternative 2026#30 Wishy - Nature's Pill|READ / LISTEN]]"
+    }
+  ],
+  "edges": []
+}

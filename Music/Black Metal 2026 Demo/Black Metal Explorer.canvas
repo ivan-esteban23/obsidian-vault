@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"ac75b16eb75fd281","type":"text","x":0,"y":-230,"width":1980,"height":170,"text":"# BLACK METAL / 2026\n\nSix records to explore · [[Black Metal 2026 - Browse|Browse all 40]] · [[Where the Darkness Gathers - Black Metal 2026#Album index|Magazine]] · [[Music/Black Metal 2026 Demo/Start here|Guide]]"},
+		{"id":"e70eb97156bff4b4","type":"group","x":0,"y":0,"width":620,"height":350,"label":"RAW / TRADITIONAL","color":"#b6c7c4"},
+		{"id":"8dd312f3a73c31c5","type":"file","x":20,"y":35,"width":260,"height":260,"file":"attachments/Black Metal 2026/01-misotheist.jpg"},
+		{"id":"897a08c8ae6615a1","type":"text","x":300,"y":35,"width":300,"height":165,"text":"### Misotheist\n\n[[Music/Black Metal 2026 Demo/Albums/Misotheist - De Pinte|De Pinte]]"},
+		{"id":"cba6936d976bf26c","type":"text","x":300,"y":240,"width":300,"height":90,"text":"[[Music/Black Metal 2026 Demo/Labels/Terratur Possessions|Terratur Possessions]]"},
+		{"id":"171b831fc1bfb46c","type":"group","x":680,"y":0,"width":620,"height":350,"label":"RAW / TRADITIONAL","color":"#b6c7c4"},
+		{"id":"61aaba02870a91d2","type":"file","x":700,"y":35,"width":260,"height":260,"file":"attachments/Black Metal 2026/02-nordlys.jpg"},
+		{"id":"a6b8f219c3fbc936","type":"text","x":980,"y":35,"width":300,"height":165,"text":"### NORDLYS\n\n[[Music/Black Metal 2026 Demo/Albums/NORDLYS - Lichterglanz Finsternis|Lichterglanz Finsternis]]"},
+		{"id":"59d29cc05381e22a","type":"text","x":980,"y":240,"width":300,"height":90,"text":"[[Music/Black Metal 2026 Demo/Labels/Solistitium Records|Solistitium Records]]"},
+		{"id":"fd25e60c51771ac7","type":"group","x":1360,"y":0,"width":620,"height":350,"label":"ATMOSPHERIC","color":"#bdc8d7"},
+		{"id":"5dc392183b52682a","type":"file","x":1380,"y":35,"width":260,"height":260,"file":"attachments/Black Metal 2026/05-hieron.jpg"},
+		{"id":"f3f83baf2dfdaf7e","type":"text","x":1660,"y":35,"width":300,"height":165,"text":"### HIERON\n\n[[Music/Black Metal 2026 Demo/Albums/HIERON - From the Temple to the Grave|From the Temple to the Grave]]"},
+		{"id":"736f1b5e1403b1e4","type":"text","x":1660,"y":240,"width":300,"height":90,"text":"[[Music/Black Metal 2026 Demo/Labels/Vendetta Records|Vendetta Records]]"},
+		{"id":"0bd1f5aa0860dd48","type":"group","x":0,"y":420,"width":620,"height":350,"label":"ATMOSPHERIC","color":"#bdc8d7"},
+		{"id":"fdfdf28b7d223b90","type":"file","x":20,"y":455,"width":260,"height":260,"file":"attachments/Black Metal 2026/06-miserere-luminis.jpg"},
+		{"id":"735ee0bef9d79651","type":"text","x":300,"y":455,"width":300,"height":165,"text":"### Miserere Luminis\n\n[[Music/Black Metal 2026 Demo/Albums/Miserere Luminis - Sidera|Sidera]]"},
+		{"id":"ef6ac8f518f23f1b","type":"text","x":300,"y":660,"width":300,"height":90,"text":"[[Music/Black Metal 2026 Demo/Labels/Debemur Morti Productions|Debemur Morti Productions]]"},
+		{"id":"94e722cd21e7cef6","type":"group","x":680,"y":420,"width":620,"height":350,"label":"ATMOSPHERIC","color":"#bdc8d7"},
+		{"id":"7f77acd501c0a274","type":"file","x":700,"y":455,"width":260,"height":260,"file":"attachments/Black Metal 2026/08-panopticon.jpg"},
+		{"id":"1c4e5f68ac62ff18","type":"text","x":980,"y":455,"width":300,"height":165,"text":"### Panopticon\n\n[[Music/Black Metal 2026 Demo/Albums/Panopticon - Det hjemsøkte hjertet|Det hjemsøkte hjertet]]"},
+		{"id":"0a530f854a117034","type":"text","x":980,"y":660,"width":300,"height":90,"text":"[[Music/Black Metal 2026 Demo/Labels/Nordvis|Nordvis]]"},
+		{"id":"a13da3d45d1dde8b","type":"group","x":1360,"y":420,"width":620,"height":350,"label":"EXPERIMENTAL","color":"#d0c2d2"},
+		{"id":"31fe47384fc42c1f","type":"file","x":1380,"y":455,"width":260,"height":260,"file":"attachments/Black Metal 2026/11-junon.jpg"},
+		{"id":"3f077e585aa2b0c1","type":"text","x":1660,"y":455,"width":300,"height":165,"text":"### JUNON\n\n[[Music/Black Metal 2026 Demo/Albums/JUNON - The Golden Citadel of the Astral Sphere|The Golden Citadel of the Astral Sphere]]"},
+		{"id":"3808f09445823f40","type":"text","x":1660,"y":660,"width":300,"height":90,"text":"[[Music/Black Metal 2026 Demo/Labels/I, Voidhanger Records|I, Voidhanger Records]]"}
+	],
+	"edges":[
+		{"id":"19d3fce463bab90b","fromNode":"897a08c8ae6615a1","toNode":"cba6936d976bf26c","fromSide":"bottom","toSide":"top","toEnd":"none","color":"#87949a"},
+		{"id":"c7f34c0e3fc4aec3","fromNode":"a6b8f219c3fbc936","toNode":"59d29cc05381e22a","fromSide":"bottom","toSide":"top","toEnd":"none","color":"#87949a"},
+		{"id":"cd34aa36b08f1660","fromNode":"f3f83baf2dfdaf7e","toNode":"736f1b5e1403b1e4","fromSide":"bottom","toSide":"top","toEnd":"none","color":"#87949a"},
+		{"id":"4034211ad87f845d","fromNode":"735ee0bef9d79651","toNode":"ef6ac8f518f23f1b","fromSide":"bottom","toSide":"top","toEnd":"none","color":"#87949a"},
+		{"id":"8a9f760983067229","fromNode":"1c4e5f68ac62ff18","toNode":"0a530f854a117034","fromSide":"bottom","toSide":"top","toEnd":"none","color":"#87949a"},
+		{"id":"59992e0244f10660","fromNode":"3f077e585aa2b0c1","toNode":"3808f09445823f40","fromSide":"bottom","toSide":"top","toEnd":"none","color":"#87949a"}
+	]
+}

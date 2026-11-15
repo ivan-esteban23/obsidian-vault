@@ -1,9 +1,13 @@
 # Obsidian workspace layout and dynamic caches
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/workspace*.json
 .obsidian/graph.json.bak
 .obsidian/cache/
 .obsidian/plugins/omnisearch/cache/
+.obsidian/plugins/**/cache/
+.obsidian/plugins/**/.cache/
+.obsidian/plugins/**/node_modules/
 .obsidian/plugins/recent-files-obsidian/data.json
 
 # Trash & OS artifacts
@@ -11,3 +15,15 @@
 .DS_Store
 *.tmp
 thumbs.db
+
+# Credentials stay local, including files in nested folders
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519

@@ -1,0 +1,276 @@
+{
+  "nodes": [
+    {
+      "id": "50c5fe9e819cb65d",
+      "type": "file",
+      "x": 800,
+      "y": -420,
+      "width": 640,
+      "height": 320,
+      "file": "Music/Black Metal 2026 Demo/Start here.md"
+    },
+    {
+      "id": "90ba906d1347bf08",
+      "type": "group",
+      "x": -30,
+      "y": -30,
+      "width": 780,
+      "height": 1640,
+      "label": "Raw and traditional",
+      "color": "4"
+    },
+    {
+      "id": "5e6d1ee63ad26fca",
+      "type": "file",
+      "x": 20,
+      "y": 20,
+      "width": 680,
+      "height": 260,
+      "file": "Music/Black Metal 2026 Demo/Styles/Raw and traditional.md"
+    },
+    {
+      "id": "a07efbc876c879db",
+      "type": "file",
+      "x": 10,
+      "y": 350,
+      "width": 400,
+      "height": 530,
+      "file": "Music/Black Metal 2026 Demo/Albums/Misotheist - De Pinte.md"
+    },
+    {
+      "id": "98261343e4fd9fdb",
+      "type": "file",
+      "x": 460,
+      "y": 430,
+      "width": 260,
+      "height": 340,
+      "file": "Music/Black Metal 2026 Demo/Labels/Terratur Possessions.md"
+    },
+    {
+      "id": "a37d10809f806e0d",
+      "type": "file",
+      "x": 10,
+      "y": 950,
+      "width": 400,
+      "height": 530,
+      "file": "Music/Black Metal 2026 Demo/Albums/NORDLYS - Lichterglanz Finsternis.md"
+    },
+    {
+      "id": "ae070f193a94c9f2",
+      "type": "file",
+      "x": 460,
+      "y": 1030,
+      "width": 260,
+      "height": 340,
+      "file": "Music/Black Metal 2026 Demo/Labels/Solistitium Records.md"
+    },
+    {
+      "id": "c557c3a96e53c266",
+      "type": "group",
+      "x": 790,
+      "y": -30,
+      "width": 780,
+      "height": 2240,
+      "label": "Atmospheric and melodic",
+      "color": "5"
+    },
+    {
+      "id": "04b15f217f3370b9",
+      "type": "file",
+      "x": 840,
+      "y": 20,
+      "width": 680,
+      "height": 260,
+      "file": "Music/Black Metal 2026 Demo/Styles/Atmospheric and melodic.md"
+    },
+    {
+      "id": "96ae5f2aa8c87170",
+      "type": "file",
+      "x": 830,
+      "y": 350,
+      "width": 400,
+      "height": 530,
+      "file": "Music/Black Metal 2026 Demo/Albums/HIERON - From the Temple to the Grave.md"
+    },
+    {
+      "id": "6f93afc402e5c856",
+      "type": "file",
+      "x": 1280,
+      "y": 430,
+      "width": 260,
+      "height": 340,
+      "file": "Music/Black Metal 2026 Demo/Labels/Vendetta Records.md"
+    },
+    {
+      "id": "c9cc8928a192754f",
+      "type": "file",
+      "x": 830,
+      "y": 950,
+      "width": 400,
+      "height": 530,
+      "file": "Music/Black Metal 2026 Demo/Albums/Miserere Luminis - Sidera.md"
+    },
+    {
+      "id": "4bd56653fa5145bc",
+      "type": "file",
+      "x": 1280,
+      "y": 1030,
+      "width": 260,
+      "height": 340,
+      "file": "Music/Black Metal 2026 Demo/Labels/Debemur Morti Productions.md"
+    },
+    {
+      "id": "7ef10f5c1fc2e658",
+      "type": "file",
+      "x": 830,
+      "y": 1550,
+      "width": 400,
+      "height": 530,
+      "file": "Music/Black Metal 2026 Demo/Albums/Panopticon - Det hjemsøkte hjertet.md"
+    },
+    {
+      "id": "ec149f3f3b83e6ac",
+      "type": "file",
+      "x": 1280,
+      "y": 1630,
+      "width": 260,
+      "height": 340,
+      "file": "Music/Black Metal 2026 Demo/Labels/Nordvis.md"
+    },
+    {
+      "id": "db145e6528b147b4",
+      "type": "group",
+      "x": 1610,
+      "y": -30,
+      "width": 780,
+      "height": 1040,
+      "label": "Strange and genre-crossing",
+      "color": "6"
+    },
+    {
+      "id": "58df28fe9a14ef0e",
+      "type": "file",
+      "x": 1660,
+      "y": 20,
+      "width": 680,
+      "height": 260,
+      "file": "Music/Black Metal 2026 Demo/Styles/Strange and genre-crossing.md"
+    },
+    {
+      "id": "821e6728e91c6656",
+      "type": "file",
+      "x": 1650,
+      "y": 350,
+      "width": 400,
+      "height": 530,
+      "file": "Music/Black Metal 2026 Demo/Albums/JUNON - The Golden Citadel of the Astral Sphere.md"
+    },
+    {
+      "id": "25488687f9b3a58f",
+      "type": "file",
+      "x": 2100,
+      "y": 430,
+      "width": 260,
+      "height": 340,
+      "file": "Music/Black Metal 2026 Demo/Labels/I, Voidhanger Records.md"
+    }
+  ],
+  "edges": [
+    {
+      "id": "f330afad715625e7",
+      "fromNode": "5e6d1ee63ad26fca",
+      "toNode": "a07efbc876c879db",
+      "label": "browse",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "46b55d2fdf87fbd6",
+      "fromNode": "a07efbc876c879db",
+      "toNode": "98261343e4fd9fdb",
+      "label": "released an edition",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "bc475be242151b61",
+      "fromNode": "5e6d1ee63ad26fca",
+      "toNode": "a37d10809f806e0d",
+      "label": "browse",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "883fc9f8d3907bbf",
+      "fromNode": "a37d10809f806e0d",
+      "toNode": "ae070f193a94c9f2",
+      "label": "released an edition",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "0f7520961e9685c0",
+      "fromNode": "04b15f217f3370b9",
+      "toNode": "96ae5f2aa8c87170",
+      "label": "browse",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "2c01439fdb201c9a",
+      "fromNode": "96ae5f2aa8c87170",
+      "toNode": "6f93afc402e5c856",
+      "label": "released an edition",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "6991f1440793af93",
+      "fromNode": "04b15f217f3370b9",
+      "toNode": "c9cc8928a192754f",
+      "label": "browse",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "aff93db0c82227fb",
+      "fromNode": "c9cc8928a192754f",
+      "toNode": "4bd56653fa5145bc",
+      "label": "released an edition",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "d43374d4c998b532",
+      "fromNode": "04b15f217f3370b9",
+      "toNode": "7ef10f5c1fc2e658",
+      "label": "browse",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "6fd2b6ed72c8b66d",
+      "fromNode": "7ef10f5c1fc2e658",
+      "toNode": "ec149f3f3b83e6ac",
+      "label": "released an edition",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "2562188ede5b7db2",
+      "fromNode": "58df28fe9a14ef0e",
+      "toNode": "821e6728e91c6656",
+      "label": "browse",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "b84378196513645d",
+      "fromNode": "821e6728e91c6656",
+      "toNode": "25488687f9b3a58f",
+      "label": "released an edition",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

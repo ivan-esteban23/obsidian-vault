@@ -1,0 +1,9 @@
+{
+  "id": "music-map-navigation",
+  "name": "Music Map Navigation",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Open the music map and death metal explorer.",
+  "author": "Local vault",
+  "isDesktopOnly": false
+}

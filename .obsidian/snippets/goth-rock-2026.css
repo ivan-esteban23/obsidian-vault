@@ -1,0 +1,114 @@
+/* Goth Rock 2026: additive magazine accents and collection-only Canvas cards. */
+.goth-rock-2026,
+.goth-rock-album,
+.canvas-node:has(a.internal-link[data-href^="After the Last Light - Goth Rock 2026#"]) {
+  --goth-accent: #70425f;
+  --goth-accent-hover: #4e2842;
+}
+.theme-dark .goth-rock-2026,
+.theme-dark .goth-rock-album,
+.theme-dark .canvas-node:has(a.internal-link[data-href^="After the Last Light - Goth Rock 2026#"]) {
+  --goth-accent: #d5a6c8;
+  --goth-accent-hover: #f1c7e6;
+}
+.goth-rock-2026 {
+  /* Inherit these first: the shared magazine style otherwise points them back
+     to --bm-* and would create circular variable references. */
+  --background-primary: inherit;
+  --background-secondary: inherit;
+  --text-normal: inherit;
+  --text-muted: inherit;
+  --text-faint: inherit;
+  --bm-link: var(--goth-accent);
+  --bm-muted: var(--text-muted);
+  --bm-rule: var(--background-modifier-border);
+  --bm-paper: var(--background-primary);
+  --bm-ink: var(--text-normal);
+  --link-color-hover: var(--goth-accent-hover);
+}
+.goth-rock-2026 .markdown-preview-section { font-size: 20px; line-height: 1.65; }
+.markdown-preview-view.goth-rock-2026.show-properties .metadata-container { display: none !important; }
+.goth-rock-2026 h1[data-heading="After the Last Light"] {
+  border-top: 3px double var(--bm-link);
+  margin-top: 0.5em;
+  padding-top: 0.4em;
+  font-size: clamp(2.6rem, 6vw, 4.4rem);
+  line-height: 1.03;
+  letter-spacing: -0.04em;
+}
+.goth-rock-2026 h2 { color: var(--bm-link); }
+.goth-rock-2026 h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: -0.02em;
+  color: var(--bm-ink);
+}
+.goth-rock-2026 p:has(> a.internal-link[href^="#"]) { font-size: 18px; }
+.goth-rock-2026 .callout {
+  --callout-color: 112, 66, 95;
+  background: var(--background-secondary);
+  border-left-color: var(--goth-accent);
+}
+.goth-rock-2026 a:hover { color: var(--goth-accent-hover); }
+.goth-rock-2026 .callout-title { font-size: 17px; }
+.goth-rock-album {
+  --file-line-width: 850px;
+  --link-color: var(--goth-accent);
+  --link-color-hover: var(--goth-accent-hover);
+}
+.goth-rock-album .metadata-container, .goth-rock-album .inline-title { display: none; }
+.goth-rock-album.markdown-preview-view { font-size: 20px; line-height: 1.6; }
+.goth-rock-album .image-embed img { max-width: min(100%, 320px); height: auto; }
+
+/* Every feature contains an issue-section link; selectors cannot match other collections. */
+.canvas-node:has(a.internal-link[data-href^="After the Last Light - Goth Rock 2026#"]) .canvas-node-container,
+.canvas-node:has(a.internal-link[data-href^="After the Last Light - Goth Rock 2026#"]) .markdown-preview-view {
+  background: var(--background-primary);
+  color: var(--text-normal);
+  border-color: var(--background-modifier-border);
+}
+.canvas-node:has(a.internal-link[data-href^="After the Last Light - Goth Rock 2026#"]) .markdown-preview-view {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.35;
+  padding: 18px 22px;
+}
+.canvas-node:has(a.internal-link[data-href^="After the Last Light - Goth Rock 2026#"]) h2 {
+  font-size: 27px;
+  line-height: 1.1;
+  margin: 8px 0;
+}
+.canvas-node:has(a.internal-link[data-href^="After the Last Light - Goth Rock 2026#"]) h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 4px 0 10px;
+}
+.canvas-node:has(a.internal-link[data-href^="After the Last Light - Goth Rock 2026#"]) p { margin: 9px 0; }
+.canvas-node:has(a.internal-link[data-href^="After the Last Light - Goth Rock 2026#"]) a { color: var(--goth-accent); }
+.canvas-node:has(a.internal-link[data-href^="After the Last Light - Goth Rock 2026#"]) a:hover { color: var(--goth-accent-hover); }
+.canvas-node:has(a.internal-link[data-href^="After the Last Light - Goth Rock 2026#"]) :is(h2,h3,strong,em) { color: var(--text-normal); }
+.canvas-node:has(a.internal-link[data-href="Music/Goth Rock 2026/Goth Rock Explorer.canvas"]) .canvas-node-container,
+.canvas-node:has(a.internal-link[data-href="Music/Goth Rock 2026/Goth Rock Explorer.canvas"]) .markdown-preview-view {
+  background: #352735;
+  color: #f8eef5;
+}
+.canvas-node:has(a.internal-link[data-href="Music/Goth Rock 2026/Goth Rock Explorer.canvas"]) :is(h1,h2,h3,p,a,strong) { color: #f8eef5; }
+.canvas-node:has(a.internal-link[data-href="Music/Goth Rock 2026/Goth Rock Explorer.canvas"]) .markdown-preview-view {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.35;
+}
+.canvas-node:has(a.internal-link[data-href="Music/Goth Rock 2026/Goth Rock Explorer.canvas"]) h1 {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 44px;
+  line-height: 1.1;
+  margin: 4px 0 16px;
+}
+.canvas-node:has(img[src*="/Goth%20Rock%202026/"]) .canvas-node-label { display: none; }
+@media (max-width: 600px) {
+  .goth-rock-2026 .markdown-preview-section { font-size: 20px; }
+  .goth-rock-2026 h3 { font-size: 24px; }
+}

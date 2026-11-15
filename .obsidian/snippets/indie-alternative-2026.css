@@ -1,0 +1,76 @@
+/* The two 2026 listening issues follow Obsidian's active theme. */
+.indie-2026 { --li-accent: #206462; --li-hover: #164341; }
+.alternative-2026 { --li-accent: #795719; --li-hover: #543b0c; }
+.theme-dark .indie-2026 { --li-accent: #91ccc3; --li-hover: #bbebe4; }
+.theme-dark .alternative-2026 { --li-accent: #dfc07b; --li-hover: #f4dfa8; }
+.listening-issue-2026 {
+  /* Break the shared magazine's circular theme aliases before inheriting. */
+  --background-primary: inherit;
+  --background-secondary: inherit;
+  --text-normal: inherit;
+  --text-muted: inherit;
+  --text-faint: inherit;
+  --bm-paper: var(--background-primary);
+  --bm-ink: var(--text-normal);
+  --bm-muted: var(--text-muted);
+  --bm-rule: var(--background-modifier-border);
+  --bm-link: var(--li-accent);
+  --link-color-hover: var(--li-hover);
+}
+.listening-issue-2026 .markdown-preview-section { font-size: 20px; line-height: 1.65; }
+.markdown-preview-view.listening-issue-2026.show-properties .metadata-container { display: none !important; }
+.listening-issue-2026 h1 {
+  border-top: 3px double var(--li-accent);
+  margin-top: .5em;
+  padding-top: .4em;
+  font-size: clamp(2.6rem,6vw,4.4rem);
+  line-height: 1.03;
+}
+.listening-issue-2026 h2 { color: var(--li-accent); }
+.listening-issue-2026 h3 {
+  font: 700 27px/1.2 Georgia,'Times New Roman',serif;
+  text-transform: none;
+  letter-spacing: -.02em;
+  color: var(--bm-ink);
+}
+.listening-issue-2026 p:has(> a.internal-link[href^="#"]) { font-size: 18px; }
+.listening-issue-2026 a:hover { color: var(--li-hover); }
+.listening-issue-2026 .callout { background: var(--background-secondary); border-left-color: var(--li-accent); }
+.listening-issue-2026 .callout-title { font-size: 17px; }
+.listening-record-2026 { --file-line-width: 850px; --link-color: var(--li-accent); --link-color-hover: var(--li-hover); }
+.listening-record-2026 .metadata-container, .listening-record-2026 .inline-title { display: none; }
+.markdown-preview-view.listening-record-2026.show-properties .metadata-container { display: none !important; }
+.listening-record-2026.markdown-preview-view { font-size: 20px; line-height: 1.6; }
+.listening-record-2026 .image-embed img { max-width: min(100%,320px); height: auto; }
+
+/* Feature cards match only links into these two magazines. */
+.canvas-node:has(a.internal-link[data-href^="Small Signals - Indie 2026#"]) { --li-accent: #206462; }
+.canvas-node:has(a.internal-link[data-href^="Outside the Lines - Alternative 2026#"]) { --li-accent: #795719; }
+.theme-dark .canvas-node:has(a.internal-link[data-href^="Small Signals - Indie 2026#"]) { --li-accent: #91ccc3; }
+.theme-dark .canvas-node:has(a.internal-link[data-href^="Outside the Lines - Alternative 2026#"]) { --li-accent: #dfc07b; }
+.canvas-node:is(:has(a.internal-link[data-href^="Small Signals - Indie 2026#"]),:has(a.internal-link[data-href^="Outside the Lines - Alternative 2026#"])) .canvas-node-container,
+.canvas-node:is(:has(a.internal-link[data-href^="Small Signals - Indie 2026#"]),:has(a.internal-link[data-href^="Outside the Lines - Alternative 2026#"])) .markdown-preview-view {
+  background: var(--background-primary);
+  color: var(--text-normal);
+  border-color: var(--background-modifier-border);
+}
+.canvas-node:is(:has(a.internal-link[data-href^="Small Signals - Indie 2026#"]),:has(a.internal-link[data-href^="Outside the Lines - Alternative 2026#"])) .markdown-preview-view {
+  font: 20px/1.35 'Segoe UI',Arial,sans-serif;
+  padding: 18px 22px;
+}
+.canvas-node:is(:has(a.internal-link[data-href^="Small Signals - Indie 2026#"]),:has(a.internal-link[data-href^="Outside the Lines - Alternative 2026#"])) h2 { font-size: 27px; line-height: 1.1; margin: 8px 0; }
+.canvas-node:is(:has(a.internal-link[data-href^="Small Signals - Indie 2026#"]),:has(a.internal-link[data-href^="Outside the Lines - Alternative 2026#"])) h3 { font-size: 20px; line-height: 1.2; margin: 4px 0 10px; }
+.canvas-node:is(:has(a.internal-link[data-href^="Small Signals - Indie 2026#"]),:has(a.internal-link[data-href^="Outside the Lines - Alternative 2026#"])) p { margin: 9px 0; }
+.canvas-node:is(:has(a.internal-link[data-href^="Small Signals - Indie 2026#"]),:has(a.internal-link[data-href^="Outside the Lines - Alternative 2026#"])) a { color: var(--li-accent); }
+.canvas-node:is(:has(a.internal-link[data-href^="Small Signals - Indie 2026#"]),:has(a.internal-link[data-href^="Outside the Lines - Alternative 2026#"])) :is(h2,h3,strong,em) { color: var(--text-normal); }
+
+/* Mastheads and the corresponding new music-map cards keep a contrasting banner. */
+.canvas-node:has(a.internal-link[data-href="Music/Indie 2026/Indie Explorer.canvas"]) { --li-banner: #254c4b; }
+.canvas-node:has(a.internal-link[data-href="Music/Alternative 2026/Alternative Explorer.canvas"]) { --li-banner: #514022; }
+.canvas-node:is(:has(a.internal-link[data-href="Music/Indie 2026/Indie Explorer.canvas"]),:has(a.internal-link[data-href="Music/Alternative 2026/Alternative Explorer.canvas"])) .canvas-node-container,
+.canvas-node:is(:has(a.internal-link[data-href="Music/Indie 2026/Indie Explorer.canvas"]),:has(a.internal-link[data-href="Music/Alternative 2026/Alternative Explorer.canvas"])) .markdown-preview-view { background: var(--li-banner); color: #f8f6ef; }
+.canvas-node:is(:has(a.internal-link[data-href="Music/Indie 2026/Indie Explorer.canvas"]),:has(a.internal-link[data-href="Music/Alternative 2026/Alternative Explorer.canvas"])) .markdown-preview-view { font: 20px/1.35 'Segoe UI',Arial,sans-serif; }
+.canvas-node:is(:has(a.internal-link[data-href="Music/Indie 2026/Indie Explorer.canvas"]),:has(a.internal-link[data-href="Music/Alternative 2026/Alternative Explorer.canvas"])) :is(h1,h2,h3,p,a,strong) { color: #f8f6ef; }
+.canvas-node:is(:has(a.internal-link[data-href="Music/Indie 2026/Indie Explorer.canvas"]),:has(a.internal-link[data-href="Music/Alternative 2026/Alternative Explorer.canvas"])) h1 { font-size: 44px; line-height: 1.1; margin: 4px 0 16px; }
+.canvas-node:is(:has(img[src*="/Indie%202026/"]),:has(img[src*="/Alternative%202026/"])) .canvas-node-label { display: none; }
+@media (max-width:600px) { .listening-issue-2026 .markdown-preview-section { font-size: 20px; } .listening-issue-2026 h3 { font-size: 24px; } }

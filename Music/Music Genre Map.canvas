@@ -1,0 +1,177 @@
+{
+	"nodes": [
+		{
+			"id": "e7c29ac414474b24",
+			"type": "text",
+			"x": 0,
+			"y": 0,
+			"width": 2460,
+			"height": 200,
+			"color": "#243039",
+			"text": "# MUSIC / GENRE MAP\n\nSix listening collections, two documented bridges. Follow a line to explore how records connect.\n\n[[Music/Music Genre Map.canvas|GENRE MAP]]  /  [[Where the Darkness Gathers - Black Metal 2026|BLACK METAL 2026]]  /  [[When the Earth Opens - Death Metal 2026|DEATH METAL 2026]]  /  [[Where Silence Takes Shape - Dark Ambient 2026|DARK AMBIENT 2026]]  /  [[After the Last Light - Goth Rock 2026|GOTH ROCK 2026]]  /  [[Small Signals - Indie 2026|INDIE 2026]]  /  [[Outside the Lines - Alternative 2026|ALTERNATIVE 2026]]"
+		},
+		{
+			"id": "fa460b2897a94290",
+			"type": "text",
+			"x": 0,
+			"y": 300,
+			"width": 510,
+			"height": 220,
+			"color": "#414d4b",
+			"text": "### 01 / GENRE\n# [[Music/Genres/Black Metal|Black Metal]]\nAtmosphere, intensity and the outer edges of metal.\n\n[[Where the Darkness Gathers - Black Metal 2026|Explore the 2026 collection]]"
+		},
+		{
+			"id": "68dd59c6d49b47c9",
+			"type": "text",
+			"x": 650,
+			"y": 300,
+			"width": 510,
+			"height": 220,
+			"color": "#57413f",
+			"text": "### 02 / GENRE\n# [[Music/Genres/Death Metal|Death Metal]]\nHeavy, intricate and continually evolving.\n\n[[When the Earth Opens - Death Metal 2026|Explore the 2026 collection]]"
+		},
+		{
+			"id": "bd3ebeeb2c874218",
+			"type": "text",
+			"x": 1300,
+			"y": 300,
+			"width": 510,
+			"height": 220,
+			"color": "#454459",
+			"text": "### 03 / GENRE\n# [[Music/Genres/Dark Ambient|Dark Ambient]]\nSoundscapes, texture and shadow.\n\n[[Where Silence Takes Shape - Dark Ambient 2026|Explore the 2026 collection]]"
+		},
+		{
+			"id": "5c37cca77bd3421d",
+			"type": "file",
+			"x": 160,
+			"y": 780,
+			"width": 260,
+			"height": 260,
+			"file": "attachments/Black Metal 2026/10-worm.jpg"
+		},
+		{
+			"id": "d7460bcf5fea427e",
+			"type": "text",
+			"x": 450,
+			"y": 780,
+			"width": 390,
+			"height": 360,
+			"color": "#343d3d",
+			"text": "### BRIDGE / 01\n## [[Music/Albums/Worm - Necropalace|Worm]]\n*Necropalace*\n\nBlack metal and death-doom; the opening track includes a dark ambient intro.\n\n[[Music/Albums/Worm - Necropalace|Open album note]]"
+		},
+		{
+			"id": "4964a6eb838e4f1f",
+			"type": "file",
+			"x": 980,
+			"y": 780,
+			"width": 260,
+			"height": 260,
+			"file": "attachments/Black Metal 2026/20-antrisch.jpg"
+		},
+		{
+			"id": "1420ebc0b49f40a5",
+			"type": "text",
+			"x": 1270,
+			"y": 780,
+			"width": 430,
+			"height": 360,
+			"color": "#343d3d",
+			"text": "### BRIDGE / 02\n## [[Music/Albums/Antrisch - Expedition III - Renitenzpfad|Antrisch]]\n*Expedition III: Renitenzpfad*\n\nAtmospheric black metal with documented dark ambient elements and influence.\n\n[[Music/Albums/Antrisch - Expedition III - Renitenzpfad|Open album note]]"
+		},
+		{
+			"id": "b3304332a8504829",
+			"type": "text",
+			"x": 0,
+			"y": 1230,
+			"width": 2460,
+			"height": 100,
+			"color": "#243039",
+			"text": "**THE CONNECTIONS**   Lines show documented relationships. Open an album note for details and sources.  [[Music/Death Metal 2026/Death Metal Explorer.canvas|Death Metal album gallery]]"
+		},
+		{
+			"id": "84255165ea2cf988",
+			"type": "text",
+			"x": 1950,
+			"y": 300,
+			"width": 510,
+			"height": 260,
+			"color": "#654655",
+			"text": "### 04 / GENRE & SCENE\n# [[Music/Genres/Goth Rock|Goth Rock]]\nGothic rock, deathrock, darkwave and goth post-punk.\n\n[[After the Last Light - Goth Rock 2026|Explore the 2026 issue]] / [[Music/Goth Rock 2026/Goth Rock Explorer.canvas|Visual explorer]]"
+		},
+		{
+			"id": "895f5cab278de3cb",
+			"type": "text",
+			"x": 0,
+			"y": 1450,
+			"width": 2460,
+			"height": 170,
+			"color": "#263e3e",
+			"text": "# INDIE / ALTERNATIVE\n\nTwo listening issues, sixty distinct releases.\n\n[[Music/Indie 2026/Indie Explorer.canvas|INDIE EXPLORER]] / [[Music/Alternative 2026/Alternative Explorer.canvas|ALTERNATIVE EXPLORER]]"
+		},
+		{
+			"id": "d4cfc644d10c213f",
+			"type": "text",
+			"x": 0,
+			"y": 1680,
+			"width": 510,
+			"height": 300,
+			"color": "#254c4b",
+			"text": "### 05 / COLLECTION\n# [[Music/Genres/Indie|Indie]]\nIndie rock, pop, folk and dream-pop routes.\n\n[[Small Signals - Indie 2026|Read the 2026 issue]] / [[Music/Indie 2026/Indie Explorer.canvas|Visual explorer]]"
+		},
+		{
+			"id": "d21ce1be8ed9cc6b",
+			"type": "text",
+			"x": 650,
+			"y": 1680,
+			"width": 510,
+			"height": 300,
+			"color": "#514022",
+			"text": "### 06 / COLLECTION\n# [[Music/Genres/Alternative|Alternative]]\nAlternative rock, grunge, noise and expansive guitars.\n\n[[Outside the Lines - Alternative 2026|Read the 2026 issue]] / [[Music/Alternative 2026/Alternative Explorer.canvas|Visual explorer]]"
+		}
+	],
+	"edges": [
+		{
+			"id": "c09b314a41cc452b",
+			"fromNode": "fa460b2897a94290",
+			"fromSide": "bottom",
+			"toNode": "d7460bcf5fea427e",
+			"toSide": "top",
+			"toEnd": "none"
+		},
+		{
+			"id": "e46fffa3427f47dd",
+			"fromNode": "68dd59c6d49b47c9",
+			"fromSide": "bottom",
+			"toNode": "d7460bcf5fea427e",
+			"toSide": "top",
+			"toEnd": "none",
+			"label": "death-doom"
+		},
+		{
+			"id": "1b8f6c742d5143f0",
+			"fromNode": "bd3ebeeb2c874218",
+			"fromSide": "bottom",
+			"toNode": "d7460bcf5fea427e",
+			"toSide": "top",
+			"toEnd": "none",
+			"label": "intro"
+		},
+		{
+			"id": "e0b4e0817d244850",
+			"fromNode": "fa460b2897a94290",
+			"fromSide": "bottom",
+			"toNode": "1420ebc0b49f40a5",
+			"toSide": "top",
+			"toEnd": "none"
+		},
+		{
+			"id": "2d3ca254f4ed4639",
+			"fromNode": "bd3ebeeb2c874218",
+			"fromSide": "bottom",
+			"toNode": "1420ebc0b49f40a5",
+			"toSide": "top",
+			"toEnd": "none",
+			"label": "influence"
+		}
+	]
+}

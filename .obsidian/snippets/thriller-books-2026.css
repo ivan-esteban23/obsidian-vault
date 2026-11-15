@@ -1,0 +1,25 @@
+/* Editorial styling restricted to the 2026 horror reading guide. */
+.thriller-books-2026 { --thriller-accent: #336a75; --thriller-ink: var(--text-normal); }
+.theme-dark .thriller-books-2026 { --thriller-accent: #86cbd3; }
+.markdown-preview-view.thriller-books-2026 { --file-line-width: 900px; font-family: Georgia, 'Times New Roman', serif; font-size: 17px; line-height: 1.65; }
+.markdown-preview-view.thriller-books-2026 h1, .markdown-preview-view.thriller-books-2026 h2 { font-family: 'Segoe UI', Arial, sans-serif; letter-spacing: -.025em; color: var(--thriller-ink); }
+.markdown-preview-view.thriller-books-2026 h1 { font-size: 2.35em; line-height: 1.12; border-bottom: 2px solid var(--thriller-accent); padding-bottom: .3em; margin-top: 1.7em; }
+.markdown-preview-view.thriller-books-2026 h2 { clear: both; font-size: 1.6em; margin-top: 2em; line-height: 1.2; }
+.markdown-preview-view.thriller-books-2026 a { color: var(--thriller-accent); text-underline-offset: 3px; }
+.markdown-preview-view.thriller-books-2026 .image-embed { float: left; margin: .2em 1.4em 1em 0; }
+.markdown-preview-view.thriller-books-2026 .image-embed img { width: 150px; height: auto; border-radius: 2px; box-shadow: 0 5px 18px #0004; }
+.markdown-preview-view.thriller-books-2026 hr { clear: both; border-color: var(--background-modifier-border); margin: 2em 0; }
+.markdown-preview-view.thriller-books-2026 .callout { border-left: 3px solid var(--thriller-accent); }
+@media (max-width: 520px) { .markdown-preview-view.thriller-books-2026 .image-embed { float: none; display: block; margin: 0 0 1em; } }
+
+.markdown-preview-view.thriller-books-2026 .metadata-container, .markdown-preview-view.thriller-books-2026 .inline-title { display: none; }
+
+/* Thriller Canvas: restrained masthead and readable album-style cards. */
+.canvas-node:has(img[src*="/Thriller%20Books%202026/"]) .canvas-node-label { display: none; }
+.canvas-node:has(a.internal-link[data-href="Between the Lines - Thriller Books 2026"]) .canvas-node-container, .canvas-node:has(a.internal-link[data-href="Between the Lines - Thriller Books 2026"]) .markdown-preview-view { background: #182a32; color: #f6f4eb; }
+.canvas-node:has(a.internal-link[data-href="Between the Lines - Thriller Books 2026"]) :is(h1,p,a,strong) { color: #f6f4eb; }
+.canvas-node:has(a.internal-link[data-href="Between the Lines - Thriller Books 2026"]) h1 { font: 700 48px/1 'Segoe UI',sans-serif; letter-spacing: -.04em; margin: 0 0 16px; }
+.canvas-node:has(a.internal-link[data-href^="Between the Lines - Thriller Books 2026#"]) .canvas-node-container, .canvas-node:has(a.internal-link[data-href^="Between the Lines - Thriller Books 2026#"]) .markdown-preview-view { background: #eeefed; color: #273136; }
+.canvas-node:has(a.internal-link[data-href^="Between the Lines - Thriller Books 2026#"]) .markdown-preview-view { font-family: 'Segoe UI',sans-serif; font-size: 18px; line-height: 1.25; }
+.canvas-node:has(a.internal-link[data-href^="Between the Lines - Thriller Books 2026#"]) h3 { font-size: 23px; line-height: 1.1; margin: 12px 0; }
+.canvas-node:has(a.internal-link[data-href^="Between the Lines - Thriller Books 2026#"]) p { margin: 12px 0; }

@@ -1,22 +1,72 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "(path:\"Music/Genres/\" OR path:\"Music/Albums/\" OR path:\"Music/Black Metal 2026 Demo/Albums/\" OR path:\"Where the Darkness Gathers - Black Metal 2026.md\" OR path:\"When the Earth Opens - Death Metal 2026.md\" OR path:\"Where Silence Takes Shape - Dark Ambient 2026.md\" OR path:\"Music/Music Genre Map.canvas\" OR path:\"Music/Black Metal 2026 Demo/Black Metal Explorer.canvas\" OR path:\"Music/Death Metal 2026/Death Metal Explorer.canvas\" OR path:\"Books/\" OR path:\"The Darkness Between Pages - Horror Books 2026.md\" OR path:\"Between the Lines - Thriller Books 2026.md\")",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"Music/Genres/Black Metal.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 3233452
+      }
+    },
+    {
+      "query": "path:\"Music/Genres/Dark Ambient.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 9529777
+      }
+    },
+    {
+      "query": "path:\"Music/Genres/Death Metal.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 11820875
+      }
+    },
+    {
+      "query": "tag:#type/album",
+      "color": {
+        "a": 1,
+        "rgb": 13667127
+      }
+    },
+    {
+      "query": "path:\"Books/Genres/\"",
+      "color": {
+        "a": 1,
+        "rgb": 12208990
+      }
+    },
+    {
+      "query": "path:\"Books/Reading Routes/\"",
+      "color": {
+        "a": 1,
+        "rgb": 6986890
+      }
+    },
+    {
+      "query": "path:\"Books/Books/\"",
+      "color": {
+        "a": 1,
+        "rgb": 12554586
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.3,
+  "lineSizeMultiplier": 1.5,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
+  "scale": 0.8213922317715215,
   "close": true
 }

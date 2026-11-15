@@ -1,0 +1,245 @@
+{
+  "nodes": [
+    {
+      "id": "c5f9478b3ea6704b",
+      "type": "group",
+      "x": 0,
+      "y": 380,
+      "width": 1760,
+      "height": 920,
+      "color": "#9b3028",
+      "label": "PUNK ROOTS"
+    },
+    {
+      "id": "616912902b375808",
+      "type": "group",
+      "x": 0,
+      "y": 1400,
+      "width": 1760,
+      "height": 920,
+      "color": "#9b3028",
+      "label": "MELODY & MOMENTUM"
+    },
+    {
+      "id": "5a50c7584d7d2193",
+      "type": "group",
+      "x": 0,
+      "y": 2420,
+      "width": 1760,
+      "height": 920,
+      "color": "#9b3028",
+      "label": "METALLIC HARDCORE"
+    },
+    {
+      "id": "57b356469b4e5ad4",
+      "type": "group",
+      "x": 0,
+      "y": 3440,
+      "width": 1760,
+      "height": 920,
+      "color": "#9b3028",
+      "label": "BEATDOWN"
+    },
+    {
+      "id": "6531dfd31b8bc412",
+      "type": "text",
+      "text": "# HARDCORE PUNK / 2026\n\nTen releases. Four listening routes. Covers above; record notes and players below.\n\n[[Hardcore Punk 2026|READ THE ISSUE]] / [[Music/Genres/Hardcore Punk|GENRE HUB]] / [[Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas|EXPLORER]] / [[Music/Music Genre Map.canvas|GENRE MAP]]\n\nRoutes organize listening; they do not draw influence lines.",
+      "x": 0,
+      "y": 0,
+      "width": 1760,
+      "height": 280,
+      "color": "#9b3028"
+    },
+    {
+      "id": "2e47422a0e4fac85",
+      "type": "file",
+      "file": "attachments/Hardcore Punk 2026/01-pressure-pact.jpg",
+      "x": 130,
+      "y": 440,
+      "width": 300,
+      "height": 297
+    },
+    {
+      "id": "2d3b558ad99ed35d",
+      "type": "text",
+      "text": "### 01 / PUNK ROOTS\n## [[Music/Albums/Pressure Pact - Haunted By Death|Pressure Pact]]\n*Haunted By Death*\n\n2026-09-03 · Hardcore punk\n\n**Start:** Haunted By Death\n\n[[Hardcore Punk 2026#01 Pressure Pact - Haunted By Death|READ / LISTEN]]",
+      "x": 40,
+      "y": 780,
+      "width": 480,
+      "height": 470,
+      "color": "#9b3028"
+    },
+    {
+      "id": "229cc5d33bb3ddba",
+      "type": "file",
+      "file": "attachments/Hardcore Punk 2026/02-stagnate.jpg",
+      "x": 700,
+      "y": 440,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "457fed2ade4f3c04",
+      "type": "text",
+      "text": "### 02 / PUNK ROOTS\n## [[Music/Albums/STAGNATE - S-T EP|STAGNATE]]\n*S/T EP*\n\n2026-09-18 · Hardcore punk / early-hardcore influence\n\n**Start:** Stagnate\n\n[[Hardcore Punk 2026#02 STAGNATE - S/T EP|READ / LISTEN]]",
+      "x": 610,
+      "y": 780,
+      "width": 480,
+      "height": 470,
+      "color": "#9b3028"
+    },
+    {
+      "id": "0e619051fb5dfa1e",
+      "type": "file",
+      "file": "attachments/Hardcore Punk 2026/03-mug.jpg",
+      "x": 1270,
+      "y": 440,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "d6d69df19fa14709",
+      "type": "text",
+      "text": "### 03 / PUNK ROOTS\n## [[Music/Albums/M.U.G. - One Crime at a Time|M.U.G.]]\n*One Crime at a Time*\n\n2026-09-01 · Hardcore punk / egg-punk tags\n\n**Start:** One Crime at a Time\n\n[[Hardcore Punk 2026#03 M.U.G. - One Crime at a Time|READ / LISTEN]]",
+      "x": 1180,
+      "y": 780,
+      "width": 480,
+      "height": 470,
+      "color": "#9b3028"
+    },
+    {
+      "id": "3e9a620c5b266805",
+      "type": "file",
+      "file": "attachments/Hardcore Punk 2026/04-without-love.jpg",
+      "x": 130,
+      "y": 1460,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "719e7cb0ac4bcb6c",
+      "type": "text",
+      "text": "### 04 / MELODY & MOMENTUM\n## [[Music/Albums/Without Love - Diminishing Returns|Without Love]]\n*Diminishing Returns*\n\n2026-02-13 · Melodic hardcore / hardcore punk\n\n**Start:** Endless Revelations\n\n[[Hardcore Punk 2026#04 Without Love - Diminishing Returns|READ / LISTEN]]",
+      "x": 40,
+      "y": 1800,
+      "width": 480,
+      "height": 470,
+      "color": "#9b3028"
+    },
+    {
+      "id": "864b87bb5015cb3f",
+      "type": "file",
+      "file": "attachments/Hardcore Punk 2026/05-barriers.jpg",
+      "x": 700,
+      "y": 1460,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "60ec1def2cabbe82",
+      "type": "text",
+      "text": "### 05 / MELODY & MOMENTUM\n## [[Music/Albums/Barriers - Time Crisis|Barriers]]\n*Time Crisis*\n\n2026-08-21 · Hardcore punk / skate-punk context\n\n**Start:** Time Crisis\n\n[[Hardcore Punk 2026#05 Barriers - Time Crisis|READ / LISTEN]]",
+      "x": 610,
+      "y": 1800,
+      "width": 480,
+      "height": 470,
+      "color": "#9b3028"
+    },
+    {
+      "id": "aa136e9a7d1c04ed",
+      "type": "file",
+      "file": "attachments/Hardcore Punk 2026/06-days-of-revelation.jpg",
+      "x": 130,
+      "y": 2480,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "6399c8d1b8fd3497",
+      "type": "text",
+      "text": "### 06 / METALLIC HARDCORE\n## [[Music/Albums/Days Of Revelation - Threatening Presence|Days Of Revelation]]\n*Threatening Presence*\n\n2026-04-17 · Metallic hardcore / beatdown-hardcore tags\n\n**Start:** DOR\n\n[[Hardcore Punk 2026#06 Days Of Revelation - Threatening Presence|READ / LISTEN]]",
+      "x": 40,
+      "y": 2820,
+      "width": 480,
+      "height": 470,
+      "color": "#9b3028"
+    },
+    {
+      "id": "89c43c19e0ec51e0",
+      "type": "file",
+      "file": "attachments/Hardcore Punk 2026/07-boldead-hardcore.jpg",
+      "x": 700,
+      "y": 2480,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "6812de34c019e7fb",
+      "type": "text",
+      "text": "### 07 / METALLIC HARDCORE\n## [[Music/Albums/Boldead Hardcore - Blood in Despair|Boldead Hardcore]]\n*Blood in Despair*\n\n2026-04-04 · Metallic hardcore / beatdown-hardcore tags\n\n**Start:** Blood in Despair\n\n[[Hardcore Punk 2026#07 Boldead Hardcore - Blood in Despair|READ / LISTEN]]",
+      "x": 610,
+      "y": 2820,
+      "width": 480,
+      "height": 470,
+      "color": "#9b3028"
+    },
+    {
+      "id": "a5593c7353783425",
+      "type": "file",
+      "file": "attachments/Hardcore Punk 2026/08-godless.jpg",
+      "x": 130,
+      "y": 3500,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "5d97c824bd4a0fb8",
+      "type": "text",
+      "text": "### 08 / BEATDOWN\n## [[Music/Albums/GODLESS - Final Judgement|GODLESS]]\n*Final Judgement*\n\n2026-08-15 · Beatdown hardcore / hardcore punk\n\n**Start:** Final Judgement\n\n[[Hardcore Punk 2026#08 GODLESS - Final Judgement|READ / LISTEN]]",
+      "x": 40,
+      "y": 3840,
+      "width": 480,
+      "height": 470,
+      "color": "#9b3028"
+    },
+    {
+      "id": "890052e1020bea30",
+      "type": "file",
+      "file": "attachments/Hardcore Punk 2026/09-triflin.jpg",
+      "x": 700,
+      "y": 3500,
+      "width": 300,
+      "height": 295
+    },
+    {
+      "id": "98dc9097d6e5497a",
+      "type": "text",
+      "text": "### 09 / BEATDOWN\n## [[Music/Albums/Triflin - For the Strong|Triflin]]\n*For the Strong*\n\n2026-03-13 · Beatdown hardcore / hardcore punk\n\n**Start:** For the Strong\n\n[[Hardcore Punk 2026#09 Triflin - For the Strong|READ / LISTEN]]",
+      "x": 610,
+      "y": 3840,
+      "width": 480,
+      "height": 470,
+      "color": "#9b3028"
+    },
+    {
+      "id": "1cd7289f0291f349",
+      "type": "file",
+      "file": "attachments/Hardcore Punk 2026/10-war-from-within.jpg",
+      "x": 1270,
+      "y": 3500,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "cffad5ed92bdbf32",
+      "type": "text",
+      "text": "### 10 / BEATDOWN\n## [[Music/Albums/War From Within - War From Within|War From Within]]\n*War From Within*\n\n2026-04-15 · Beatdown hardcore / hardcore punk\n\n**Start:** No Other Way\n\n[[Hardcore Punk 2026#10 War From Within - War From Within|READ / LISTEN]]",
+      "x": 1180,
+      "y": 3840,
+      "width": 480,
+      "height": 470,
+      "color": "#9b3028"
+    }
+  ],
+  "edges": []
+}

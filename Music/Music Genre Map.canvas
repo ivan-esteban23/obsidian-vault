@@ -8,7 +8,7 @@
 			"width": 2460,
 			"height": 200,
 			"color": "#243039",
-			"text": "# MUSIC / GENRE MAP\n\nSix listening collections, two documented bridges. Follow a line to explore how records connect.\n\n[[Music/Music Genre Map.canvas|GENRE MAP]]  /  [[Where the Darkness Gathers - Black Metal 2026|BLACK METAL 2026]]  /  [[When the Earth Opens - Death Metal 2026|DEATH METAL 2026]]  /  [[Where Silence Takes Shape - Dark Ambient 2026|DARK AMBIENT 2026]]  /  [[After the Last Light - Goth Rock 2026|GOTH ROCK 2026]]  /  [[Small Signals - Indie 2026|INDIE 2026]]  /  [[Outside the Lines - Alternative 2026|ALTERNATIVE 2026]]"
+			"text": "# MUSIC / GENRE MAP\n\nSeven listening collections, two documented bridges. Follow a line to explore how records connect.\n\n[[Music/Music Genre Map.canvas|GENRE MAP]]  /  [[Where the Darkness Gathers - Black Metal 2026|BLACK METAL 2026]]  /  [[When the Earth Opens - Death Metal 2026|DEATH METAL 2026]]  /  [[Where Silence Takes Shape - Dark Ambient 2026|DARK AMBIENT 2026]]  /  [[After the Last Light - Goth Rock 2026|GOTH ROCK 2026]]  /  [[Small Signals - Indie 2026|INDIE 2026]]  /  [[Outside the Lines - Alternative 2026|ALTERNATIVE 2026]]  /  [[Hardcore Punk 2026|HARDCORE PUNK 2026]]"
 		},
 		{
 			"id": "fa460b2897a94290",
@@ -106,7 +106,7 @@
 			"width": 2460,
 			"height": 170,
 			"color": "#263e3e",
-			"text": "# INDIE / ALTERNATIVE\n\nTwo listening issues, sixty distinct releases.\n\n[[Music/Indie 2026/Indie Explorer.canvas|INDIE EXPLORER]] / [[Music/Alternative 2026/Alternative Explorer.canvas|ALTERNATIVE EXPLORER]]"
+			"text": "# INDIE / ALTERNATIVE / HARDCORE\n\nThree listening issues, seventy distinct releases.\n\n[[Music/Indie 2026/Indie Explorer.canvas|INDIE EXPLORER]] / [[Music/Alternative 2026/Alternative Explorer.canvas|ALTERNATIVE EXPLORER]] / [[Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas|HARDCORE EXPLORER]]"
 		},
 		{
 			"id": "d4cfc644d10c213f",
@@ -127,6 +127,16 @@
 			"height": 300,
 			"color": "#514022",
 			"text": "### 06 / COLLECTION\n# [[Music/Genres/Alternative|Alternative]]\nAlternative rock, grunge, noise and expansive guitars.\n\n[[Outside the Lines - Alternative 2026|Read the 2026 issue]] / [[Music/Alternative 2026/Alternative Explorer.canvas|Visual explorer]]"
+		},
+		{
+			"id": "b98800740c48fd7d",
+			"type": "text",
+			"x": 1300,
+			"y": 1680,
+			"width": 510,
+			"height": 300,
+			"color": "#9b3028",
+			"text": "### 07 / COLLECTION\n# [[Music/Genres/Hardcore Punk|Hardcore Punk]]\nPunk roots, melody, metallic hardcore and beatdown routes.\n\n[[Hardcore Punk 2026|Read the 2026 issue]] / [[Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas|Visual explorer]]"
 		}
 	],
 	"edges": [

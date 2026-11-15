@@ -1,0 +1,140 @@
+/* Hardcore Punk 2026: extend the shared listening issue / record conventions. */
+.hardcore-punk-2026 {
+  --li-accent: #9b3028;
+  --li-hover: #70221c;
+  --link-color: var(--li-accent);
+  --link-color-hover: var(--li-hover);
+}
+.theme-dark .hardcore-punk-2026 {
+  --li-accent: #ffb4a8;
+  --li-hover: #ffd8d1;
+}
+.hardcore-punk-2026.listening-issue-2026 {
+  --background-primary: inherit;
+  --background-secondary: inherit;
+  --text-normal: inherit;
+  --text-muted: inherit;
+  --text-faint: inherit;
+  --bm-paper: var(--background-primary);
+  --bm-ink: var(--text-normal);
+  --bm-muted: var(--text-muted);
+  --bm-rule: var(--background-modifier-border);
+  --bm-link: var(--li-accent);
+  --file-line-width: 800px;
+}
+.hardcore-punk-2026.listening-issue-2026 :is(.markdown-preview-sizer, .cm-sizer) {
+  max-width: 800px;
+}
+.hardcore-punk-2026 :is(h1, h2, h3, strong) { color: var(--text-normal); }
+.hardcore-punk-2026 h2 { color: var(--li-accent); }
+.hardcore-punk-2026 a { color: var(--li-accent); }
+.hardcore-punk-2026 a:hover { color: var(--li-hover); text-decoration: underline; }
+.hardcore-punk-2026 a:focus-visible {
+  outline: 2px solid var(--li-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+.hardcore-punk-2026 .callout {
+  background: var(--background-secondary);
+  border-left-color: var(--li-accent);
+  --callout-title-color: var(--text-normal);
+  --callout-content-color: var(--text-normal);
+}
+.hardcore-punk-2026.listening-issue-2026 h1 { border-top-color: var(--li-accent); }
+.hardcore-punk-2026.listening-record-2026 .image-embed img { height: auto; }
+
+/* Feature cards, the masthead and the new genre-map card only. */
+.canvas-node:is(
+  :has(a.internal-link[data-href^="Hardcore Punk 2026#"]),
+  :has(a.internal-link[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"])
+) {
+  --li-accent: #9b3028;
+  --li-hover: #70221c;
+}
+.theme-dark .canvas-node:is(
+  :has(a.internal-link[data-href^="Hardcore Punk 2026#"]),
+  :has(a.internal-link[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"])
+) {
+  --li-accent: #ffb4a8;
+  --li-hover: #ffd8d1;
+}
+.canvas-node:is(
+  :has(a.internal-link[data-href^="Hardcore Punk 2026#"]),
+  :has(a.internal-link[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"])
+) :is(.canvas-node-container, .markdown-preview-view) {
+  background: var(--background-primary);
+  color: var(--text-normal);
+  border-color: var(--background-modifier-border);
+}
+.canvas-node:is(
+  :has(a.internal-link[data-href^="Hardcore Punk 2026#"]),
+  :has(a.internal-link[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"])
+) .markdown-preview-view {
+  font: 20px/1.4 'Segoe UI', Arial, sans-serif;
+  padding: 18px 22px;
+}
+.canvas-node:has(a.internal-link[data-href^="Hardcore Punk 2026#"]) h2 {
+  font-size: 27px;
+  line-height: 1.15;
+  margin: 8px 0;
+}
+.canvas-node:has(a.internal-link[data-href^="Hardcore Punk 2026#"]) h3 {
+  font-size: 18px;
+  line-height: 1.3;
+  margin: 4px 0 10px;
+}
+.canvas-node:is(
+  :has(a.internal-link[data-href^="Hardcore Punk 2026#"]),
+  :has(a.internal-link[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"])
+) :is(h1, h2, h3, strong, em) { color: var(--text-normal); }
+.canvas-node:is(
+  :has(a.internal-link[data-href^="Hardcore Punk 2026#"]),
+  :has(a.internal-link[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"])
+) p { margin: 9px 0; }
+.canvas-node:is(
+  :has(a.internal-link[data-href^="Hardcore Punk 2026#"]),
+  :has(a.internal-link[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"])
+) a { color: var(--li-accent); }
+.canvas-node:is(
+  :has(a.internal-link[data-href^="Hardcore Punk 2026#"]),
+  :has(a.internal-link[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"])
+) a:hover { color: var(--li-hover); text-decoration: underline; }
+.canvas-node:is(
+  :has(a.internal-link[data-href^="Hardcore Punk 2026#"]),
+  :has(a.internal-link[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"])
+) a:focus-visible { outline: 2px solid var(--li-accent); outline-offset: 3px; }
+.canvas-node:has(a.internal-link[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"]) h1 {
+  font-size: 40px;
+  line-height: 1.15;
+  margin: 4px 0 16px;
+  border-top: 3px double var(--li-accent);
+  padding-top: 12px;
+}
+.canvas-node:is(
+  :has(img[src*="/Hardcore%20Punk%202026/"]),
+  :has(img[src*="/Hardcore Punk 2026/"])
+) .canvas-node-label { display: none; }
+
+/* Keep the expanded map navigation within its existing 170px heading card. */
+.canvas-node:has(a[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"]):has(a[data-href="Music/Indie 2026/Indie Explorer.canvas"]) .markdown-preview-view {
+  background: var(--background-primary);
+  color: var(--text-normal);
+  padding: 12px 22px;
+  font-size: 18px;
+  line-height: 1.25;
+}
+.canvas-node:has(a[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"]):has(a[data-href="Music/Indie 2026/Indie Explorer.canvas"]) h1 {
+  color: var(--text-normal);
+  font-size: 32px;
+  line-height: 1.15;
+  border: 0;
+  padding: 0;
+  margin: 0 0 8px;
+}
+.canvas-node:has(a[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"]):has(a[data-href="Music/Indie 2026/Indie Explorer.canvas"]) p {
+  color: var(--text-normal);
+  margin: 6px 0;
+}
+.canvas-node:has(a[data-href="Music/Hardcore Punk 2026/Hardcore Punk Explorer.canvas"]):has(a[data-href="Music/Indie 2026/Indie Explorer.canvas"]) a {
+  color: var(--li-accent);
+}
